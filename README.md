@@ -40,6 +40,13 @@ The site is fully responsive, optimized for performance, and easy to maintain.
 
 ---
 
+## 🌍 Multilingual Support
+
+- The site supports **English** and **German**.  
+  Users can easily switch between languages using flag icons at the top of the page.
+  
+---
+
 ## 🛠️ Installation & Development
 
 To run this project locally:
@@ -58,18 +65,28 @@ npm install
 npm run dev
 ```
 ---
+## 🌐 Deployment
 
-### 🌐 Deployment
 This project is deployed using GitHub Pages.
-Build and deployment are managed via GitHub’s built-in GitHub Pages workflow from the main branch.
+- Build and deployment are managed via GitHub’s built-in GitHub Pages workflow from the main branch.
 
 📫 Contact Me
 Feel free to connect or reach out:
 
 [LinkedIn](https://www.linkedin.com/in/a-shehata/)
 
-[GitHub](https://github.com/AntoniousShehata/)
+[GitHub](https://github.com/AntoniousShehata)
 
-[Email](maito:antoniousmaher@gmail.com)
+[Email](mailto:antoniousmaher@gmail.com)
 
-### Thank you for visiting my portfolio! Feel free to explore and connect. 👨‍💻✨
+## Thank you for visiting my portfolio!
+### Feel free to explore and connect. 👨‍💻✨
+
+
+### Updates:
+
+1. **Multilingual Support**: Added a section mentioning the language toggle functionality for both English and German.
+2. **Refinement**: Cleaned up the formatting and wording for clarity and consistency.
+3. **Minor Enhancements**: Added emphasis on multilingual support to highlight this feature in the project overview.
+
+This will keep your README informative and clear while highlighting the multilingual aspect and the technologies used.
