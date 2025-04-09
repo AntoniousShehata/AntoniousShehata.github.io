@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# 💼 Antonious Shehata's Developer Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my personal portfolio project!  
+This website showcases who I am, what I’ve built, and what I’m passionate about as a software developer.
 
-## Available Scripts
+🔗 **Live Site**: [Portfolio](https://antoniousshehata.github.io)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 👨‍💻 About Me
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+I’m Antonious Shehata — a software developer with a strong background in both **business** and **technology**.  
+I hold an **MBA in International Business** and a **Master’s degree in Computer Science**.  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Over the past 15+ years, I’ve built a career that blends real-world business logic with practical tech solutions.  
+Now, I’m focused on creating clean, scalable web applications using modern technologies.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ⚙️ Tech Stack
 
-### `npm run build`
+I’m proficient in a variety of programming languages and frameworks:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Languages**: C#, Python, JavaScript, HTML, CSS
+- **Web Technologies**: HTML, CSS, JavaScript, JQuery, ASP.NET MVC, React, Xamarin, Ajax, Bootstrap, XML, XMPP, Git
+- **Platforms & Administration**: Visual Studio, MS SQL, MySQL, Sharepoint, MongoDB, Xampp, Dbeaver, Colab, Tableau, Scikit-learn
+- **Agile Methodologies**: Project Management, People Management
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Project Overview
 
-### `npm run eject`
+This portfolio site was built using:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **React.js** for building UI components
+- **Tailwind CSS** for responsive and modern styling
+- **GitHub Pages** for deployment
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The site is fully responsive, optimized for performance, and easy to maintain.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🛠️ Installation & Development
 
-## Learn More
+To run this project locally:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+# 1. Clone the repository
+git clone https://github.com/AntoniousShehata/AntoniousShehata.github.io.git
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# 2. Navigate to the folder
+cd AntoniousShehata.github.io
 
-### Code Splitting
+# 3. Install dependencies
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# 4. Start the local server
+npm run dev
+```
+---
 
-### Analyzing the Bundle Size
+### 🌐 Deployment
+This project is deployed using GitHub Pages.
+Build and deployment are managed via GitHub’s built-in GitHub Pages workflow from the main branch.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+📫 Contact Me
+Feel free to connect or reach out:
 
-### Making a Progressive Web App
+[LinkedIn](https://www.linkedin.com/in/a-shehata/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+[GitHub](https://github.com/AntoniousShehata/)
 
-### Advanced Configuration
+[Email](maito:antoniousmaher@gmail.com)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Thank you for visiting my portfolio! Feel free to explore and connect. 👨‍💻✨
