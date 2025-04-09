@@ -72,4 +72,4 @@ Feel free to connect or reach out:
 
 [Email](maito:antoniousmaher@gmail.com)
 
-Thank you for visiting my portfolio! Feel free to explore and connect. 👨‍💻✨
+### Thank you for visiting my portfolio! Feel free to explore and connect. 👨‍💻✨
