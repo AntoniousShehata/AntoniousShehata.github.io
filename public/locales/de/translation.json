@@ -1,0 +1,77 @@
+{
+  "name": "Antonious Shehata",
+  "job_title": "Full Stack Entwickler",
+  "degree": "Master in Computer Engineering, GISMA Universität - Deutschland",
+  "degree_other": "Master of Business Administration (MBA), ESLSCA Business School - Frankreich",
+  "english": "Englisch",
+  "german": "Deutsch",
+  "arabic": "Arabisch",
+  "about_title": "Über mich",
+  "about_text": "Full-Stack-Entwickler mit umfassender Erfahrung in Softwareentwicklung, digitaler Transformation und agiler Führung. Spezialisiert auf Hochleistungsrechnen und digitale Innovation. Praxisnahe Erfahrung mit Python, C#, Django, ASP.NET und Datenbankarchitekturen. Starker Fokus auf FinTech, Machine-Learning-Pipelines und skalierbare Backend-Systeme.",
+  "skills": {
+    "title": "Fähigkeiten",
+    "languages": "<strong>Programmiersprachen:</strong> C#, Python, JavaScript, HTML, CSS",
+    "frameworks": "<strong>Frameworks:</strong> Django, ASP.NET MVC, React, Xamarin",
+    "tools": "<strong>Werkzeuge:</strong> Git, Visual Studio, Xampp, Dbeaver, Colab",
+    "databases": "<strong>Datenbanken:</strong> MS SQL, MySQL, MongoDB",
+    "others": "<strong>Weitere:</strong> SharePoint, Tableau, Scikit-learn"
+    },
+  "education": {
+    "title": "Ausbildung",
+    "gisma": "<strong>GISMA Universität</strong> – Master in Computertechnik (2024–2025) – Potsdam, Deutschland",
+    "eslsca": "<strong>ESLSCA Business School</strong> – MBA in internationalem Geschäft (2017–2020) – Paris, Frankreich",
+    "helwan": "<strong>Helwan Universität</strong> – BBA in Informationstechnologie (2005–2009) – Kairo, Ägypten"
+  },
+  "experience": {
+    "title": "Berufserfahrung",
+
+    "parliament": {
+      "title": "Datenzentrum des ägyptischen Parlaments (2012–2024)",
+      "li1": "Geleitet und mitgewirkt an nationalen Digitalisierungsprojekten.",
+      "li2": "Entwicklung und Wartung von EDMS, Parlamentsportal und System für Redebeiträge.",
+      "li3": "Junior-Entwickler betreut; Top 2 in der Schulungsbewertung (99%) ausgewählt."
+    },
+
+    "sanitary": {
+      "title": "Abosefen und Tamave Irini Sanitärwaren (2021–2023)",
+      "li1": "Responsive Firmenwebsite und individuelles Lager-/Rechnungssystem erstellt und bereitgestellt."
+    },
+
+    "elraie": {
+      "title": "Elraie für Handel und Versorgung (2019–2022)",
+      "li1": "Erstellt ein Dashboard zur Rechnungsverfolgung und Analyse mit Echtzeit-Einblicken in Lagerbestände."
+    },
+
+    "pharmacy": {
+      "title": "George und Kerlous Apotheke (2015–2018)",
+      "li1": "Verbesserung des Krankenhausinformationssystems (HIS), Leitung der Datenbankoptimierung und Systemneugestaltung."
+    }
+  },
+  "languages": {
+    "title": "Sprachen",
+    "german": {
+      "name": "Deutsch",
+      "level": "Geschäftsniveau (B1)"
+    },
+    "english": {
+      "name": "Englisch",
+      "level": "Fortgeschritten"
+    },
+    "arabic": {
+      "name": "Arabisch",
+      "level": "Muttersprache"
+    }
+  },
+  "courses": {
+    "title": "Weitere Kurse",
+    "ci": {
+      "title": "<strong>CI University of Applied Science</strong> – Amsterdam, Niederlande (2024)",
+      "course": "Masterkurs in Persönlicher Führung"
+    },
+    "hertie": {
+      "title": "<strong>Hertie School</strong> – Berlin, Deutschland (2022)",
+      "course": "Digitale Transformation und gute Regierungsführung"
+    }
+  },
+  "rights": "© 2025 Antonious Shehata. Alle Rechte vorbehalten."
+}
