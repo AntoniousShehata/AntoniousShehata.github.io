@@ -73,5 +73,93 @@
       "course": "Digitale Transformation und gute Regierungsführung"
     }
   },
+  "certificates": {
+    "title": "Zertifikate",
+    "cert_1": {
+      "title": "Erfolgskompetenzen",
+      "details": "Cambridge Training College ctcbritain (2008)"
+    },
+    "cert_2": {
+      "title": "EDU Ägypten Programm",
+      "details": "Ministerium für Kommunikation und Informationstechnologie (MCIT), Ägypten (2008–2009)"
+    },
+    "cert_3": {
+      "title": "Crystal Report",
+      "details": "Nationales Telekommunikationsinstitut (NTI) (November 2008)"
+    },
+    "cert_4": {
+      "title": "Abfragen von Microsoft SQL Server 2012",
+      "details": "New Horizons (März 2014)"
+    },
+    "cert_5": {
+      "title": "Verwalten von Microsoft SQL Server 2012",
+      "details": "New Horizons (April 2014)"
+    },
+    "cert_6": {
+      "title": "Entwicklung mit Microsoft SQL Server 2012",
+      "details": "New Horizons (Mai 2014)"
+    },
+    "cert_7": {
+      "title": "Programmierung in Visual Basic mit Microsoft Visual Studio 2010",
+      "details": "New Horizons (Juni 2014)"
+    },
+    "cert_8": {
+      "title": "Einführung in die Webentwicklung mit Microsoft Visual Studio 2010",
+      "details": "New Horizons (September 2014)"
+    },
+    "cert_9": {
+      "title": "Kernlösungen für Microsoft SharePoint Server 2013",
+      "details": "Microsoft (Juni 2016)"
+    },
+    "cert_10": {
+      "title": "Erweiterte Lösungen für Microsoft SharePoint Server 2013",
+      "details": "Microsoft (August 2016)"
+    },
+    "cert_11": {
+      "title": "Programmierung in C# mit Microsoft Visual Studio 2017 (CISCO-Partner)",
+      "details": "Microsoft (April 2019)"
+    },
+    "cert_12": {
+      "title": "HTML5 + CSS + JavaScript",
+      "details": "Microsoft (Mai 2019)"
+    },
+    "cert_13": {
+      "title": "ASP.net MVC",
+      "details": "Microsoft (Juli 2019)"
+    },
+    "cert_14": {
+      "title": "Xamarin: Native plattformübergreifende Apps mit C# entwickeln",
+      "details": "Microsoft (Februar 2021)"
+    },
+    "cert_15": {
+      "title": "Digital Marketing Challenger Track",
+      "details": "Ministerium für Kommunikation und Informationstechnologie (MCIT), Ägypten (Januar 2022)"
+    },
+    "cert_16": {
+      "title": "Data Challenger Track",
+      "details": "Ministerium für Kommunikation und Informationstechnologie (MCIT), Ägypten (Januar 2022)"
+    },
+    "cert_17": {
+      "title": "Einführung in das IT Service Management – ITSM",
+      "details": "Ministerium für Kommunikation und Informationstechnologie (MCIT), Ägypten (März 2022)"
+    },
+    "cert_18": {
+      "title": "Data Analysis Professional Track",
+      "details": "Ministerium für Kommunikation und Informationstechnologie (MCIT), Ägypten (Mai 2022)"
+    },
+    "cert_19": {
+      "title": "Executive Training – Gute Regierungsführung und Digitalisierung",
+      "details": "Hertie School, Berlin, Deutschland (September 2022)"
+    },
+    "cert_20": {
+      "title": "Masterabschluss in Persönlicher Führung",
+      "details": "IC University of Applied Sciences Amsterdam, Niederlande (Mai 2024)"
+    },
+    "cert_21": {
+      "title": "GISMA Skills Sprint Woche",
+      "details": "GISMA Hochschule für Angewandte Wissenschaften, Potsdam, Deutschland (Februar 2024)"
+    }
+  },
+
   "rights": "© 2025 Antonious Shehata. Alle Rechte vorbehalten."
 }
