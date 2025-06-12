@@ -23,28 +23,38 @@
     "helwan": "<strong>Helwan University</strong> – BBA in IT (2005–2009) – Cairo, Egypt"
   },
   "experience": {
-    "title": "Work Experience",
+    "title": "Professional Experience",
 
     "parliament": {
-      "title": "Egyptian Parliament Data Center (2012–2024)",
-      "li1": "Led and contributed to national digital transformation projects.",
-      "li2": "Developed and maintained EDMS, Parliament Portal, Session Speaking Request System.",
-      "li3": "Supervised junior developers; selected top 2 in training evaluation (99%)."
-    },
-
-    "sanitary": {
-      "title": "Abosefen and Tamave Irini Sanitaryware (2021–2023)",
-      "li1": "Built and deployed a responsive company website and custom inventory/invoice system."
-    },
-
-    "elraie": {
-      "title": "Elraie For Commerce and Supplies (2019–2022)",
-      "li1": "Created an invoice tracking and analytics dashboard with real-time inventory insights."
-    },
-
-    "pharmacy": {
-      "title": "George and Kerlous Pharmacy (2015–2018)",
-      "li1": "Improved Hospital Information System (HIS), led database optimization and system redesign."
+      "title": "IT Department – Egyptian Parliament (2013–2023)",
+      "proj1": {
+        "title": "<strong>* Procurement, Inventory, Pharmacy, and Staff Fund Systems (2018–2020)</strong>",
+        "details": "Led the development of administrative systems to streamline business processes."
+      },
+      "proj2": {
+        "title": "<strong>* Session Management and Minutes Automation (2017–2019)</strong>",
+        "details": "Built a live recording system for sessions and committees; reduced reporting time from weeks to under one hour."
+      },
+      "proj3": {
+        "title": "<strong>* Members’ Request Platform (2016–2018)</strong>",
+        "details": "Created a platform for members to submit and track requests to ministries."
+      },
+      "proj4": {
+        "title": "<strong>* New Members Registration and Tracking (2015–2016)</strong>",
+        "details": "Developed a real-time system for registering new MPs and monitoring their status with live dashboards."
+      },
+      "proj5": {
+        "title": "<strong>* Document Archiving System (2016–2018)</strong>",
+        "details": "Implemented a digital archiving solution that reduced paper usage by 95%."
+      },
+      "proj6": {
+        "title": "<strong>* Employee Management System (2015–2017)</strong>",
+        "details": "Developed a biometric-based time tracking system with leave, payroll, and digital profiles."
+      },
+      "proj7": {
+        "title": "<strong>* Legacy Database Migration (2013–2014)</strong>",
+        "details": "Migrated legacy systems (BarlyDB) to MS SQL Server to improve data integrity."
+      }
     }
   },
     "languages": {

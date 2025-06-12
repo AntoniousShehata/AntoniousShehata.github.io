@@ -26,25 +26,35 @@
     "title": "Berufserfahrung",
 
     "parliament": {
-      "title": "Datenzentrum des ägyptischen Parlaments (2012–2024)",
-      "li1": "Geleitet und mitgewirkt an nationalen Digitalisierungsprojekten.",
-      "li2": "Entwicklung und Wartung von EDMS, Parlamentsportal und System für Redebeiträge.",
-      "li3": "Junior-Entwickler betreut; Top 2 in der Schulungsbewertung (99%) ausgewählt."
-    },
-
-    "sanitary": {
-      "title": "Abosefen und Tamave Irini Sanitärwaren (2021–2023)",
-      "li1": "Responsive Firmenwebsite und individuelles Lager-/Rechnungssystem erstellt und bereitgestellt."
-    },
-
-    "elraie": {
-      "title": "Elraie für Handel und Versorgung (2019–2022)",
-      "li1": "Erstellt ein Dashboard zur Rechnungsverfolgung und Analyse mit Echtzeit-Einblicken in Lagerbestände."
-    },
-
-    "pharmacy": {
-      "title": "George und Kerlous Apotheke (2015–2018)",
-      "li1": "Verbesserung des Krankenhausinformationssystems (HIS), Leitung der Datenbankoptimierung und Systemneugestaltung."
+      "title": "Rechenzentrum des ägyptischen Parlaments (2013–2023)",
+      "proj1":{
+        "title": "<strong>* Beschaffung, Lagerverwaltung, Apotheke und Mitarbeiterfonds (2018-2020)</strong>",
+        "details": "Leitung der Entwicklung mehrerer Verwaltungssysteme zur Optimierung von Geschäftsprozessen."
+      },
+      "proj2": {
+        "title": "<strong>* Sitzungsmanagement und Protokollautomatisierung (2017–2019)</strong>",
+        "details": "Entwicklung eines Systems zur Live-Aufzeichnung von Sitzungen und Ausschusstreffen; Reduktion der Berichterstellungszeit von mehreren Wochen auf unter eine Stunde."
+      },
+      "proj3": {
+        "title": "<strong>* Antragsplattform für Mitglieder (2016–2018)</strong>",
+        "details": "Entwicklung einer Plattform, über die Mitglieder Anträge an Ministerien stellen und den Bearbeitungsstatus verfolgen können."
+      },
+      "proj4": {
+        "title": "<strong>* Registrierung und Nachverfolgung neuer Mitglieder (2015–2016)</strong>",
+        "details": "Entwicklung eines Echtzeitsystems zur Registrierung neuer Parlamentsmitglieder und zur Überwachung ihres Status mit Live-Statistiken."
+      },
+      "proj5": {
+        "title": "<strong>* Dokumentenarchivierungssystem (2016–2018)</strong>",
+        "details": "Implementierung einer digitalen Archivierungslösung, die den Papierverbrauch der Institution um 95 % reduzierte."
+      },
+      "proj6": {
+        "title": "<strong>* Mitarbeiterverwaltungssystem (2015–2017)</strong>",
+        "details": "Entwicklung eines Systems zur Zeiterfassung mit biometrischer Integration, Urlaubsanträgen, Gehaltsabrechnung und digitalen Mitarbeiterprofilen."
+      },
+      "proj7": {
+        "title": "<strong>* Legacy-Datenbankmigration (2013–2014)</strong>",
+        "details": "Migration von Altsystemen (BarlyDB) zu Microsoft SQL Server zur Verbesserung der Datenintegrität."
+      }
     }
   },
   "languages": {
@@ -63,7 +73,7 @@
     }
   },
   "courses": {
-    "title": "Weitere Kurse",
+    "title": "WeitereBildung",
     "ci": {
       "title": "<strong>CI University of Applied Science</strong> – Amsterdam, Niederlande (2024)",
       "course": "Masterkurs in Persönlicher Führung"
