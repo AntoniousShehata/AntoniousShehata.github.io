@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Preview</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            width: 1200px;
+            height: 630px;
+            background: linear-gradient(135deg, #3b82f6, #1d4ed8, #7c3aed);
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+        
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 90%;
+            height: 80%;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 40px;
+            box-sizing: border-box;
+        }
+        
+        .content {
+            flex: 1;
+            color: white;
+            padding-right: 40px;
+        }
+        
+        .name {
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .title {
+            font-size: 28px;
+            margin-bottom: 20px;
+            opacity: 0.9;
+        }
+        
+        .description {
+            font-size: 18px;
+            line-height: 1.6;
+            opacity: 0.8;
+            margin-bottom: 20px;
+        }
+        
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .skill {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            backdrop-filter: blur(5px);
+        }
+        
+        .profile-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .profile-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 6px solid rgba(255, 255, 255, 0.3);
+            margin-bottom: 20px;
+            background: #f0f0f0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            color: #666;
+        }
+        
+        .contact-info {
+            color: white;
+            opacity: 0.9;
+            font-size: 16px;
+        }
+        
+        .floating-element {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(40px);
+            opacity: 0.3;
+        }
+        
+        .element1 {
+            width: 200px;
+            height: 200px;
+            background: #06d6a0;
+            top: 10%;
+            left: 10%;
+        }
+        
+        .element2 {
+            width: 150px;
+            height: 150px;
+            background: #f72585;
+            bottom: 20%;
+            right: 15%;
+        }
+        
+        .element3 {
+            width: 100px;
+            height: 100px;
+            background: #ffd166;
+            top: 60%;
+            left: 5%;
+        }
+    </style>
+</head>
+<body>
+    <div class="floating-element element1"></div>
+    <div class="floating-element element2"></div>
+    <div class="floating-element element3"></div>
+    
+    <div class="container">
+        <div class="content">
+            <div class="name">Shehata Antonious</div>
+            <div class="title">Senior Software Engineer</div>
+            <div class="description">
+                10+ years in .NET (C#, ASP.NET Core), React, Docker and SQL Server.<br>
+                Delivering scalable cloud platforms for 4,000+ users.<br>
+                German B1, visa-ready, seeking .NET focused roles.
+            </div>
+            <div class="skills">
+                <div class="skill">.NET Core</div>
+                <div class="skill">React</div>
+                <div class="skill">Docker</div>
+                <div class="skill">SQL Server</div>
+                <div class="skill">Azure</div>
+                <div class="skill">Microservices</div>
+            </div>
+        </div>
+        
+        <div class="profile-section">
+            <div class="profile-image">
+                Professional Photo
+            </div>
+            <div class="contact-info">
+                📧 antoniousmaher@gmail.com<br>
+                📞 +4917739448619<br>
+                📍 Potsdam, Germany
+            </div>
+        </div>
+    </div>
+</body>
+</html> 
