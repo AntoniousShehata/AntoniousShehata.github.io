@@ -1,90 +1,108 @@
 {
-  "name": "Antonious Shehata",
-  "job_title": "Full Stack Developer",
-  "degree": "Master in Computer Engineering, GISMA University - Germany",
-  "degree_other": "Master Business Administration (MBA), Eslsca business School - France", 
+  "name": "Shehata Antonious",
+  "job_title": "Senior Software Engineer",
+  "degree": "Master in Computer Science, GISMA University - Germany",
+  "degree_other": "Master Business Administration (MBA), ESLSCA Business School - France", 
   "english": "English",
   "german": "Deutsch",
-  "arabic": "عربى",
   "about_title": "About Me",
-  "about_text": "Full-stack developer with deep experience in software development, digital transformation, and agile leadership. Specialized in advanced computing and digital innovation. Hands-on experience in Python, C#, Django, ASP.NET, and database architecture. Strong focus on financial tech, machine learning pipelines, and scalable backend systems.",
+  "about_text": "Senior Software Engineer with 10+ years in .NET (C#, ASP.NET Core), React, Docker and SQL Server, delivering scalable cloud platforms for 4,000+ users. Specialized in microservices, REST APIs, and Azure services; German B1, visa-ready, seeking .NET focused roles.",
+  "contact_info": {
+    "phone": "+4917739448619",
+    "email": "antoniousmaher@gmail.com",
+    "location": "Potsdam, Germany",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  },
   "skills": {
-  "title": "Skills",
-  "languages": "<strong>Languages:</strong> C#, Python, JavaScript, HTML, CSS",
-  "frameworks": "<strong>Frameworks:</strong> Django, ASP.NET MVC, React, Xamarin",
-  "tools": "<strong>Tools:</strong> Git, Visual Studio, Xampp, Dbeaver, Colab",
-  "databases": "<strong>Databases:</strong> MS SQL, MySQL, MongoDB",
-  "others": "<strong>Others:</strong> SharePoint, Tableau, Scikit-learn"
+    "title": "Skills & Technologies",
+    "frontend": "<strong>Frontend Skills:</strong> HTML5, CSS3, JavaScript(ES6+), ReactJS, Responsive Design (Bootstrap, Tailwind CSS), REST API Integration, Cross-Browser Compatibility",
+    "backend": "<strong>Backend Skills:</strong> C#, .NET (ASP.NET Core, MVC), REST API Development, Microservices Architecture, Authentication: JWT, OAuth2",
+    "databases": "<strong>Database:</strong> SQL: MS SQL Server, MySQL, NoSQL: MongoDB, Database Design & Querying",
+    "devops": "<strong>DevOps & Cloud:</strong> CI/CD: GitHub Actions, GitLab CI, Containerization: Docker, Cloud Platforms: Microsoft Azure (App Services, Blob Storage), Event-driven: Kafka",
+    "version_control": "<strong>Version Control & Project Management:</strong> Git (GitHub, GitLab), Agile / Scrum",
+    "testing": "<strong>Testing:</strong> Unit Testing: NUnit, xUnit, Integration Testing",
+    "machine_learning": "<strong>Machine Learning & Data Science:</strong> Python (NumPy, Pandas, Matplotlib), Scikit-learn, Model training, evaluation, Jupyter Notebooks",
+    "soft_skills": "<strong>Soft Skills:</strong> Strong Communication & Team Collaboration, Problem Solving & Critical Thinking, Fast Learner, High Ownership, Self-Driven"
   },
   "education": {
     "title": "Education",
-    "gisma": "<strong>GISMA University</strong> – Master of Computer Engineering (2024–2025) – Potsdam, Germany",
-    "eslsca": "<strong>ESLSCA Business School</strong> – MBA in Global Business (2017–2020) – Paris, France",
-    "helwan": "<strong>Helwan University</strong> – BBA in IT (2005–2009) – Cairo, Egypt"
+    "gisma": "<strong>GISMA University</strong> – Master of Computer Science (Feb 2025 – Potsdam, Germany) – GPA: 2.2 / 5<br/>Thesis: Using machine learning-based customer segmentation to enhance market performance for SMEs",
+    "eslsca": "<strong>ESLSCA Business School</strong> – MBA – Global Business (Apr 2020 – Paris, France) – German GPA: 1.7 / 5",
+    "helwan": "<strong>Helwan University</strong> – Bachelor of Business Administration Information Technology (May 2019 – Cairo, Egypt)"
+  },
+  "additional_education": {
+    "title": "Further Education",
+    "ci": "<strong>CI University</strong> – Master course Personal Leadership (May 2024 – Amsterdam, Netherlands)",
+    "hertie": "<strong>Hertie School</strong> – Digital Transformation and Good Governance (Sep 2022 – Berlin, Germany)"
   },
   "experience": {
     "title": "Professional Experience",
-
     "parliament": {
-      "title": "IT Department – Egyptian Parliament (2013–2023)",
-      "proj1": {
-        "title": "<strong>* Procurement, Inventory, Pharmacy, and Staff Fund Systems (2018–2020)</strong>",
-        "details": "Led the development of administrative systems to streamline business processes."
+      "title": "Senior Software Engineer – Information Technology Center – Head Office (2018 – 2023)",
+      "company": "Egyptian Parliament – Cairo, Egypt",
+      "integrated_erp": {
+        "title": "<strong>Integrated ERP Modules (2021-2023)</strong>",
+        "details": "• Designed a unified platform used by 4,000+ staff in procurement, logistics and finance<br/>• Consolidated four legacy systems into a centralized solution with consistent data and modular architecture<br/>• Standardized over 5,000 item records, reducing data duplication and manual correction by 65%<br/>• Enhanced settlement workflows for pharmacy and staff funds in coordination with over 50 vendors<br/>• Created executive dashboards to visualize 5-year historical data and financial forecasts<br/><strong>Tech Stack:</strong> ASP.NET MVC (5), C#, SQL Server 2017, REST APIs, Power BI, Crystal Reports, Git"
       },
-      "proj2": {
-        "title": "<strong>* Session Management and Minutes Automation (2017–2019)</strong>",
-        "details": "Built a live recording system for sessions and committees; reduced reporting time from weeks to under one hour."
+      "session_management": {
+        "title": "<strong>Parliamentary Session & Voting Management System (2019-2021)</strong>",
+        "details": "• Maintained and optimized mission-critical systems serving 1,200 Members of Parliament<br/>• Connected encrypted voting records to MP profiles to ensure traceability and compliance<br/>• Solved key synchronization issues and enabled real-time dashboards for session attendance and voting<br/>• Automated upload and indexing for session recordings every 15 minutes with searchable playback<br/>• Built a tool that reduced transcript preparation from 3 weeks to under an hour<br/><strong>Tech Stack:</strong> ASP.NET MVC, JavaScript (ES6), SQL Server, Azure Blob Storage, Kafka, jQuery, SignalR"
       },
-      "proj3": {
-        "title": "<strong>* Members’ Request Platform (2016–2018)</strong>",
-        "details": "Created a platform for members to submit and track requests to ministries."
+      "erequest_platform": {
+        "title": "<strong>E-Request Platform for Parliamentary Members (2018-2019)</strong>",
+        "details": "• Built a secure internal request system used by 1,200 MPs to interact with ministries<br/>• Implemented full role-based access control with detailed activity logging<br/>• Cut request turnaround time by 45% via automated workflows and notifications<br/>• Improved adoption and platform engagement by 90% after redesign and performance tuning<br/><strong>Tech Stack:</strong> ASP.NET MVC, C#, SQL Server, Bootstrap 4, Microservices (modular services via HTTP APIs)"
+      }
+    },
+    "mid_level": {
+      "title": "Mid-Level Software Engineer – Information Systems Development Department (2015 – 2018)",
+      "company": "Egyptian Parliament – Cairo, Egypt",
+      "digital_archiving": {
+        "title": "<strong>Digital Document Archiving (2016–2018)</strong>",
+        "details": "• Implemented a centralized archiving system managing 100,000+ scanned files<br/>• Enabled rapid document retrieval, reducing time from hours to seconds<br/>• Reduced physical document usage by 95% through complete digitization<br/><strong>Tech Stack:</strong> C#, ASP.NET Web Forms, SQL Server 2014, Containerization: Docker, Windows Services"
       },
-      "proj4": {
-        "title": "<strong>* New Members Registration and Tracking (2015–2016)</strong>",
-        "details": "Developed a real-time system for registering new MPs and monitoring their status with live dashboards."
+      "mp_onboarding": {
+        "title": "<strong>MP Onboarding & Attendance Tracking System (2015–2016)</strong>",
+        "details": "• Developed an internal tool for MP onboarding and attendance tracking for all MPs<br/>• Integrated attendance logs, role assignments, and calendar session mapping<br/>• Cut onboarding time by 70% and increased the data accuracy by 90%+<br/><strong>Tech Stack:</strong> ASP.NET Web API 2, C#, React.js, SQL Server, Containerization: Docker, jQuery, Entity Framework 6"
       },
-      "proj5": {
-        "title": "<strong>* Document Archiving System (2016–2018)</strong>",
-        "details": "Implemented a digital archiving solution that reduced paper usage by 95%."
+      "biometric_system": {
+        "title": "<strong>HR & Biometric Attendance System (2015–2016)</strong>",
+        "details": "• Delivered an HR and payroll-linked biometric attendance system for 4,000+ employees<br/>• Integrated with fingerprint devices and connected to leave management and payroll systems<br/>• Reduced attendance manipulation and raise accuracy by 90%+<br/><strong>Tech Stack:</strong> ASP.NET MVC 5, C#, SQL Server, Windows Services, Entity Framework, Biometric SDKs"
+      }
+    },
+    "junior": {
+      "title": "Junior Software Engineer – Project Management Department (2013 – 2015)",
+      "company": "Egyptian Parliament – Cairo, Egypt",
+      "parliament_website": {
+        "title": "<strong>Parliament Official Web Portal (2014–2015)</strong>",
+        "details": "• Supported development and maintenance of the parliament's public-facing website<br/>• Focused on uptime, SEO optimization, and responsive design<br/>• Handled heavy traffic peaks during major sessions (50,000+ users/day)<br/><strong>Tech Stack:</strong> ASP.NET Web Forms, C#, JavaScript (ES5), SQL Server 2012, HTML5/CSS3, jQuery"
       },
-      "proj6": {
-        "title": "<strong>* Employee Management System (2015–2017)</strong>",
-        "details": "Developed a biometric-based time tracking system with leave, payroll, and digital profiles."
-      },
-      "proj7": {
-        "title": "<strong>* Legacy Database Migration (2013–2014)</strong>",
-        "details": "Migrated legacy systems (BarlyDB) to MS SQL Server to improve data integrity."
+      "legacy_migration": {
+        "title": "<strong>Legacy Database Migration Project (2013–2014)</strong>",
+        "details": "• Migrated over 1 million records from IBM DB2-based legacy system to modern SQL Server infrastructure<br/>• Created data mapping scripts and ran integrity validation during and post-migration<br/>• Achieved zero downtime and 100% data integrity<br/><strong>Tech Stack:</strong> IBM DB2, SQL Server 2012, SQL Scripts, Data Migration Assistant"
       }
     }
   },
-    "languages": {
+  "languages": {
     "title": "Languages",
     "german": {
       "name": "German",
-      "level": "Business Level (B1)"
+      "level": "Business Level (B1)",
+      "percentage": "60"
     },
     "english": {
       "name": "English",
-      "level": "Advanced"
+      "level": "Advanced (C1)",
+      "percentage": "90"
     },
     "arabic": {
       "name": "Arabic",
-      "level": "Native"
-    }
-  },
-    "courses": {
-    "title": "Other Courses",
-    "ci": {
-      "title": "<strong>CI University of Applied Science</strong> – Amsterdam, Netherlands (2024)",
-      "course": "Master Course in Personal Leadership"
-    },
-    "hertie": {
-      "title": "<strong>Hertie School</strong> – Berlin, Germany (2022)",
-      "course": "Digital Transformation and Good Governance"
+      "level": "Native (C2)",
+      "percentage": "100"
     }
   },
   "certificates": {
-    "title":"Certificates",
+    "title":"Certificates & Achievements",
     "cert_1": {
       "title": "Success Skills",
       "details": "Cambridge Training College ctcbritain (2008)"
@@ -110,11 +128,11 @@
       "details": "New Horizons (May 2014)"
     },
     "cert_7": {
-      "title": "Programming in visual Basic with Microsoft Visual Studio 2010",
+      "title": "Programming in Visual Basic with Microsoft Visual Studio 2010",
       "details": "New Horizons (June 2014)"
     },
     "cert_8": {
-      "title": "Introduction to Web Development with Microsoft Visusl Studio 2010",
+      "title": "Introduction to Web Development with Microsoft Visual Studio 2010",
       "details": "New Horizons (September 2014)"
     },
     "cert_9": {
@@ -126,7 +144,7 @@
       "details": "Microsoft (August 2016)"
     },
     "cert_11": {
-      "title": "Programming in C# using Microsoft visual studio 2017 CISCO Partner",
+      "title": "Programming in C# using Microsoft Visual Studio 2017 CISCO Partner",
       "details": "Microsoft (April 2019)"
     },
     "cert_12": {
@@ -162,7 +180,7 @@
       "details": "Hertie School Berlin, Germany (September 2022)"
     },
     "cert_20": {
-      "title": "personal leadership Master Degree",
+      "title": "Personal leadership Master Degree",
       "details": "IC University of Applied Sciences Amsterdam, Netherlands (May 2024)"
     },
     "cert_21": {
@@ -170,6 +188,67 @@
       "details": "Gisma University for applied science Potsdam, Germany (February 2024)"
     }
   },
-
-  "rights": "&copy; 2025 Antonious Shehata. All rights reserved."
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "education": "Education",
+    "certificates": "Certificates",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "typed_text": [
+      "Senior Software Engineer",
+      ".NET Developer", 
+      "Cloud Architect",
+      "Full Stack Developer"
+    ],
+    "cta": "Get In Touch",
+    "view_work": "View My Work",
+    "download_cv": "View CV"
+  },
+  "cv_modal": {
+    "title": "Professional CV",
+    "description": "View my complete curriculum vitae with detailed experience, education, and certifications.",
+    "open_full": "Open Full CV in New Tab",
+    "download": "Download PDF Version",
+    "updated": "Updated 2025",
+    "languages": "EN / DE"
+  },
+  "stats": {
+    "years_experience": "Years Experience",
+    "major_projects": "Major Projects",
+    "paper_reduction": "Paper Reduction",
+    "users_impacted": "Users Impacted"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Let's Work Together",
+    "description": "Ready to bring your ideas to life? I'm always open to discussing new opportunities and interesting projects.",
+    "form": {
+      "name": "Your Name",
+      "email": "Your Email",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent successfully! I'll get back to you soon.",
+      "error": "Failed to send message. Please try again.",
+      "placeholders": {
+        "name": "John Doe",
+        "email": "john@example.com",
+        "subject": "Project Discussion",
+        "message": "Tell me about your project..."
+      }
+    },
+    "info": {
+      "email_label": "Email",
+      "phone_label": "Phone",
+      "location_label": "Location",
+      "social": "Follow Me"
+    }
+  },
+  "rights": "&copy; 2025 Shehata Antonious. All rights reserved."
 }
