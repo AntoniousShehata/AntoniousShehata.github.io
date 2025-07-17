@@ -1,0 +1,171 @@
+{
+  "name": "Shehata Antonious",
+  "job_title": "Senior Software Engineer",
+  "degree": "Master in Computer Science, GISMA Universität - Deutschland",
+  "degree_other": "Master Business Administration (MBA), ESLSCA Business School - Frankreich", 
+  "english": "English",
+  "german": "Deutsch",
+  "about_title": "Über mich",
+  "about_text": "Senior Software Engineer mit 10+ Jahren Erfahrung in .NET (C#, ASP.NET Core), React, Docker und SQL Server, der skalierbare Cloud-Plattformen für über 4.000 Benutzer entwickelt. Spezialisiert auf Microservices, REST-APIs und Azure-Services; Deutsch B1, visa-bereit, suche .NET-fokussierte Positionen.",
+  "contact_info": {
+    "phone": "+4917739448619",
+    "email": "antoniousmaher@gmail.com",
+    "location": "Potsdam, Deutschland",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  },
+  "skills": {
+    "title": "Fähigkeiten & Technologien",
+    "frontend": "<strong>Frontend-Fähigkeiten:</strong> HTML5, CSS3, JavaScript(ES6+), ReactJS, Responsive Design (Bootstrap, Tailwind CSS), REST-API-Integration, Cross-Browser-Kompatibilität",
+    "backend": "<strong>Backend-Fähigkeiten:</strong> C#, .NET (ASP.NET Core, MVC), REST-API-Entwicklung, Microservices-Architektur, Authentifizierung: JWT, OAuth2",
+    "databases": "<strong>Datenbank:</strong> SQL: MS SQL Server, MySQL, NoSQL: MongoDB, Datenbankdesign & Abfragen",
+    "devops": "<strong>DevOps & Cloud:</strong> CI/CD: GitHub Actions, GitLab CI, Containerisierung: Docker, Cloud-Plattformen: Microsoft Azure (App Services, Blob Storage), Event-driven: Kafka",
+    "version_control": "<strong>Versionskontrolle & Projektmanagement:</strong> Git (GitHub, GitLab), Agile / Scrum",
+    "testing": "<strong>Testing:</strong> Unit Testing: NUnit, xUnit, Integration Testing",
+    "machine_learning": "<strong>Machine Learning & Data Science:</strong> Python (NumPy, Pandas, Matplotlib), Scikit-learn, Modelltraining, Bewertung, Jupyter Notebooks",
+    "soft_skills": "<strong>Soft Skills:</strong> Starke Kommunikation & Teamzusammenarbeit, Problemlösung & kritisches Denken, schneller Lerner, hohe Eigenverantwortung, selbstständig"
+  },
+  "education": {
+    "title": "Ausbildung",
+    "gisma": "<strong>GISMA Universität</strong> – Master in Computer Science (Feb 2025 – Potsdam, Deutschland) – GPA: 2.2 / 5<br/>Masterarbeit: Verwendung von Machine-Learning-basierter Kundensegmentierung zur Verbesserung der Marktleistung für KMU",
+    "eslsca": "<strong>ESLSCA Business School</strong> – MBA – Global Business (Apr 2020 – Paris, Frankreich) – Deutsche GPA: 1.7 / 5",
+    "helwan": "<strong>Helwan Universität</strong> – Bachelor of Business Administration Informationstechnologie (Mai 2019 – Kairo, Ägypten)"
+  },
+  "additional_education": {
+    "title": "Weiterbildung",
+    "ci": "<strong>CI Universität</strong> – Masterkurs Persönliche Führung (Mai 2024 – Amsterdam, Niederlande)",
+    "hertie": "<strong>Hertie School</strong> – Digitale Transformation und gute Regierungsführung (Sep 2022 – Berlin, Deutschland)"
+  },
+  "experience": {
+    "title": "Berufserfahrung",
+    "parliament": {
+      "title": "Senior Software Engineer – Informationstechnologie-Zentrum – Hauptsitz (2018 – 2023)",
+      "company": "Ägyptisches Parlament – Kairo, Ägypten",
+      "integrated_erp": {
+        "title": "<strong>Integrierte ERP-Module (2021-2023)</strong>",
+        "details": "• Entwarf eine einheitliche Plattform, die von über 4.000 Mitarbeitern in Beschaffung, Logistik und Finanzen genutzt wird<br/>• Konsolidierte vier Legacy-Systeme in eine zentralisierte Lösung mit konsistenten Daten und modularer Architektur<br/>• Standardisierte über 5.000 Artikeldatensätze, reduzierte Datenduplizierung und manuelle Korrekturen um 65%<br/>• Verbesserte Abrechnungsworkflows für Apotheke und Mitarbeiterfonds in Koordination mit über 50 Anbietern<br/>• Erstellte Executive-Dashboards zur Visualisierung von 5-jährigen historischen Daten und Finanzprognosen<br/><strong>Tech Stack:</strong> ASP.NET MVC (5), C#, SQL Server 2017, REST APIs, Power BI, Crystal Reports, Git"
+      },
+      "session_management": {
+        "title": "<strong>Parlamentssitzungs- und Abstimmungsmanagementsystem (2019-2021)</strong>",
+        "details": "• Wartete und optimierte unternehmenskritische Systeme für 1.200 Parlamentsmitglieder<br/>• Verband verschlüsselte Abstimmungsaufzeichnungen mit MP-Profilen zur Gewährleistung von Nachverfolgbarkeit und Compliance<br/>• Löste wichtige Synchronisationsprobleme und ermöglichte Echtzeit-Dashboards für Sitzungsteilnahme und Abstimmungen<br/>• Automatisierte Upload und Indexierung für Sitzungsaufzeichnungen alle 15 Minuten mit durchsuchbarer Wiedergabe<br/>• Entwickelte ein Tool, das die Transkriptionsvorbereitung von 3 Wochen auf unter eine Stunde reduzierte<br/><strong>Tech Stack:</strong> ASP.NET MVC, JavaScript (ES6), SQL Server, Azure Blob Storage, Kafka, jQuery, SignalR"
+      },
+      "erequest_platform": {
+        "title": "<strong>E-Request-Plattform für Parlamentsmitglieder (2018-2019)</strong>",
+        "details": "• Entwickelte ein sicheres internes Anfragensystem, das von 1.200 Abgeordneten zur Interaktion mit Ministerien genutzt wird<br/>• Implementierte vollständige rollenbasierte Zugriffskontrolle mit detaillierter Aktivitätsprotokollierung<br/>• Reduzierte Anfragebearbeitungszeit um 45% durch automatisierte Workflows und Benachrichtigungen<br/>• Verbesserte Akzeptanz und Plattform-Engagement um 90% nach Neugestaltung und Leistungsoptimierung<br/><strong>Tech Stack:</strong> ASP.NET MVC, C#, SQL Server, Bootstrap 4, Microservices (modulare Services über HTTP APIs)"
+      }
+    },
+    "mid_level": {
+      "title": "Mid-Level Software Engineer – Abteilung für Informationssystementwicklung (2015 – 2018)",
+      "company": "Ägyptisches Parlament – Kairo, Ägypten",
+      "digital_archiving": {
+        "title": "<strong>Digitale Dokumentenarchivierung (2016–2018)</strong>",
+        "details": "• Implementierte ein zentralisiertes Archivierungssystem für über 100.000 gescannte Dateien<br/>• Ermöglichte schnelle Dokumentenabruf, reduzierte Zeit von Stunden auf Sekunden<br/>• Reduzierte physische Dokumentennutzung um 95% durch vollständige Digitalisierung<br/><strong>Tech Stack:</strong> C#, ASP.NET Web Forms, SQL Server 2014, Containerisierung: Docker, Windows Services"
+      },
+      "mp_onboarding": {
+        "title": "<strong>MP-Onboarding & Anwesenheitsverfolgungssystem (2015–2016)</strong>",
+        "details": "• Entwickelte ein internes Tool für MP-Onboarding und Anwesenheitsverfolgung für alle Abgeordneten<br/>• Integrierte Anwesenheitsprotokolle, Rollenzuweisungen und Kalendersitzungszuordnung<br/>• Reduzierte Onboarding-Zeit um 70% und erhöhte Datengenauigkeit um über 90%<br/><strong>Tech Stack:</strong> ASP.NET Web API 2, C#, React.js, SQL Server, Containerisierung: Docker, jQuery, Entity Framework 6"
+      },
+      "biometric_system": {
+        "title": "<strong>HR & Biometrisches Anwesenheitssystem (2015–2016)</strong>",
+        "details": "• Lieferte ein mit HR und Gehaltsabrechnung verknüpftes biometrisches Anwesenheitssystem für über 4.000 Mitarbeiter<br/>• Integriert mit Fingerabdruckgeräten und verbunden mit Urlaubsmanagement- und Gehaltsabrechnungssystemen<br/>• Reduzierte Anwesenheitsmanipulation und erhöhte Genauigkeit um über 90%<br/><strong>Tech Stack:</strong> ASP.NET MVC 5, C#, SQL Server, Windows Services, Entity Framework, Biometric SDKs"
+      }
+    },
+    "junior": {
+      "title": "Junior Software Engineer – Projektmanagement-Abteilung (2013 – 2015)",
+      "company": "Ägyptisches Parlament – Kairo, Ägypten",
+      "parliament_website": {
+        "title": "<strong>Offizielles Parlamentswebportal (2014–2015)</strong>",
+        "details": "• Unterstützte Entwicklung und Wartung der öffentlichen Website des Parlaments<br/>• Fokus auf Betriebszeit, SEO-Optimierung und responsives Design<br/>• Bewältigte hohe Verkehrsspitzen während wichtiger Sitzungen (50.000+ Benutzer/Tag)<br/><strong>Tech Stack:</strong> ASP.NET Web Forms, C#, JavaScript (ES5), SQL Server 2012, HTML5/CSS3, jQuery"
+      },
+      "legacy_migration": {
+        "title": "<strong>Legacy-Datenbankmigrationsprojekt (2013–2014)</strong>",
+        "details": "• Migrierte über 1 Million Datensätze von IBM DB2-basiertem Legacy-System zu moderner SQL Server-Infrastruktur<br/>• Erstellte Datenzuordnungsskripte und führte Integritätsvalidierung während und nach der Migration durch<br/>• Erreichte null Ausfallzeit und 100% Datenintegrität<br/><strong>Tech Stack:</strong> IBM DB2, SQL Server 2012, SQL Scripts, Data Migration Assistant"
+      }
+    }
+  },
+  "languages": {
+    "title": "Sprachen",
+    "german": {
+      "name": "Deutsch",
+      "level": "Geschäftsniveau (B1)",
+      "percentage": "60"
+    },
+    "english": {
+      "name": "Englisch",
+      "level": "Fortgeschritten (C1)",
+      "percentage": "90"
+    },
+    "arabic": {
+      "name": "Arabisch",
+      "level": "Muttersprache (C2)",
+      "percentage": "100"
+    }
+  },
+  "certificates": {
+    "title": "Zertifikate & Erfolge",
+    "description": "Professionelle Zertifizierungen und Weiterbildungen"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Lassen Sie uns zusammenarbeiten",
+    "description": "Ich bin immer interessiert an spannenden Projekten und Möglichkeiten. Lassen Sie uns über Ihre nächste Softwareentwicklungsherausforderung sprechen!",
+    "form": {
+      "name": "Ihr Name",
+      "email": "Ihre E-Mail",
+      "subject": "Betreff",
+      "message": "Ihre Nachricht",
+      "send": "Nachricht senden",
+      "sending": "Wird gesendet...",
+      "success": "Nachricht erfolgreich gesendet! Ich melde mich bald bei Ihnen.",
+      "error": "Fehler beim Senden der Nachricht. Bitte versuchen Sie es erneut.",
+      "placeholders": {
+        "name": "Max Mustermann",
+        "email": "max@beispiel.de",
+        "subject": "Projektdiskussion",
+        "message": "Erzählen Sie mir von Ihrem Projekt..."
+      }
+    },
+    "info": {
+      "email_label": "E-Mail",
+      "phone_label": "Telefon",
+      "location_label": "Standort",
+      "social": "Folgen Sie mir"
+    }
+  },
+  "navigation": {
+    "home": "Startseite",
+    "about": "Über mich",
+    "skills": "Fähigkeiten",
+    "experience": "Erfahrung",
+    "education": "Ausbildung",
+    "certificates": "Zertifikate",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "greeting": "Hallo, ich bin",
+    "typed_text": [
+      "Senior Software Engineer",
+      ".NET Entwickler", 
+      "Cloud Architect",
+      "Full Stack Developer"
+    ],
+    "cta": "Kontakt aufnehmen",
+    "view_work": "Meine Arbeit ansehen",
+    "download_cv": "CV ansehen"
+  },
+  "cv_modal": {
+    "title": "Professioneller Lebenslauf",
+    "description": "Sehen Sie meinen vollständigen Lebenslauf mit detaillierter Erfahrung, Ausbildung und Zertifizierungen.",
+    "open_full": "Vollständigen CV in neuem Tab öffnen",
+    "download": "PDF-Version herunterladen",
+    "updated": "Aktualisiert 2025",
+    "languages": "DE / EN"
+  },
+  "stats": {
+    "years_experience": "Jahre Erfahrung",
+    "major_projects": "Große Projekte",
+    "paper_reduction": "Papierreduzierung",
+    "users_impacted": "Betroffene Benutzer"
+  },
+  "rights": "© 2025 Shehata Antonious. Alle Rechte vorbehalten."
+}

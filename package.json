@@ -5,7 +5,7 @@
   "type": "commonjs",
   "scripts": {
     "start": "live-server",
-    "build": "postcss css/main.css -o public/assets/css/build/tailwind.css --minify",
+    "build": "postcss css/main.css -o assets/css/build/tailwind.css --minify",
     "tailwind": "tailwindcss  -i css/main.css -o public/assets/css/build/tailwind.css --minify  & live-server ./public ",
     "dev": " live-server ./public & postcss css/main.css -o public/assets/css/build/tailwind.css --minify --watch  "
   },

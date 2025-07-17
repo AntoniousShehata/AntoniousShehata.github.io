@@ -1,0 +1,1283 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Antonious Shehata | Full Stack Developer</title>
+  <link rel="stylesheet" href="/assets/css/build/tailwind.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <meta name="description" content="Shehata Antonious - Senior Software Engineer with 10+ years in .NET, React, Docker and SQL Server, delivering scalable cloud platforms for 4,000+ users. German B1, visa-ready.">
+  
+  <!-- Open Graph Meta Tags for Social Media Sharing -->
+  <meta property="og:title" content="Shehata Antonious - Senior Software Engineer Portfolio">
+  <meta property="og:description" content="Senior Software Engineer with 10+ years in .NET (C#, ASP.NET Core), React, Docker and SQL Server, delivering scalable cloud platforms for 4,000+ users. Specialized in microservices, REST APIs, and Azure services.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://antoniousshehata.github.io">
+  <meta property="og:image" content="https://antoniousshehata.github.io/Images/professional-headshot.jpg">
+  <meta property="og:image:alt" content="Shehata Antonious - Senior Software Engineer">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Shehata Antonious - Senior Software Engineer Portfolio">
+  <meta name="twitter:description" content="Senior Software Engineer with 10+ years in .NET, React, Docker and SQL Server. German B1, visa-ready, seeking .NET focused roles.">
+  <meta name="twitter:image" content="https://antoniousshehata.github.io/Images/professional-headshot.jpg">
+  
+  <!-- LinkedIn Specific Meta Tags -->
+  <meta property="og:site_name" content="Shehata Antonious Portfolio">
+  <meta property="article:author" content="Shehata Antonious">
+  <style>
+    .typing-effect {
+      border-right: 2px solid #3b82f6;
+      white-space: nowrap;
+      overflow: hidden;
+      animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+    }
+    
+    .gradient-text {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    
+    .glass-morphism {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    
+    .skill-bar {
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .skill-bar::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+      animation: shimmer 2s infinite;
+    }
+    
+    @keyframes shimmer {
+      0% { left: -100%; }
+      100% { left: 100%; }
+    }
+    
+    .card-hover {
+      transition: all 0.3s ease;
+    }
+    
+    .card-hover:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    }
+    
+    .floating-element {
+      animation: float 6s ease-in-out infinite;
+    }
+    
+    .parallax-bg {
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+    nav {
+      transition: all 0.3s ease;
+    }
+    
+    .nav-scrolled {
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    
+    .certificate-modal {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      backdrop-filter: blur(5px);
+    }
+    
+    .certificate-modal.active {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      animation: fadeIn 0.3s ease;
+    }
+    
+    .progress-circle {
+      transform: rotate(-90deg);
+    }
+    
+    .progress-circle circle {
+      stroke-dasharray: 251.2;
+      stroke-dashoffset: 251.2;
+      animation: progress 2s ease-in-out forwards;
+    }
+    
+    @keyframes progress {
+      to {
+        stroke-dashoffset: calc(251.2 - (251.2 * var(--percent)) / 100);
+      }
+    }
+  </style>
+</head>
+<body class="font-sans bg-gradient-to-br from-gray-50 to-blue-50 text-gray-800">
+  
+  <!-- Navigation -->
+  <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-white/80 backdrop-blur-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center py-4">
+        <div class="flex items-center space-x-3">
+          <div class="w-10 h-10 bg-gradient-to-r from-primary-500 to-secondary-500 rounded-full flex items-center justify-center">
+            <span class="text-white font-bold text-lg">AS</span>
+          </div>
+          <span class="font-display font-semibold text-xl text-gray-800" data-i18n="name">Antonious Shehata</span>
+        </div>
+        
+        <!-- Desktop Navigation -->
+        <div class="hidden md:flex items-center space-x-8">
+          <a href="#home" class="nav-link text-gray-700 hover:text-primary-600 transition-colors" data-i18n="navigation.home">Home</a>
+          <a href="#about" class="nav-link text-gray-700 hover:text-primary-600 transition-colors" data-i18n="navigation.about">About</a>
+          <a href="#skills" class="nav-link text-gray-700 hover:text-primary-600 transition-colors" data-i18n="navigation.skills">Skills</a>
+          <a href="#experience" class="nav-link text-gray-700 hover:text-primary-600 transition-colors" data-i18n="navigation.experience">Experience</a>
+          <a href="#certificates" class="nav-link text-gray-700 hover:text-primary-600 transition-colors" data-i18n="navigation.certificates">Certificates</a>
+          <a href="#contact" class="nav-link text-gray-700 hover:text-primary-600 transition-colors" data-i18n="navigation.contact">Contact</a>
+        </div>
+        
+        <!-- Language Switcher -->
+        <div class="flex items-center space-x-2">
+          <button onclick="changeLng('en')" class="lang-btn px-3 py-1 rounded-lg text-sm font-medium transition-all hover:bg-primary-100 border border-transparent hover:border-primary-200">EN</button>
+          <button onclick="changeLng('de')" class="lang-btn px-3 py-1 rounded-lg text-sm font-medium transition-all hover:bg-primary-100 border border-transparent hover:border-primary-200">DE</button>
+        </div>
+        
+        <!-- Mobile Menu Button -->
+        <button id="mobile-menu-btn" class="md:hidden p-2 rounded-lg hover:bg-gray-100">
+          <i class="fas fa-bars text-gray-700"></i>
+        </button>
+      </div>
+    </div>
+    
+    <!-- Mobile Navigation -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-200">
+      <div class="px-4 py-3 space-y-2">
+        <a href="#home" class="block py-2 text-gray-700 hover:text-primary-600" data-i18n="navigation.home">Home</a>
+        <a href="#about" class="block py-2 text-gray-700 hover:text-primary-600" data-i18n="navigation.about">About</a>
+        <a href="#skills" class="block py-2 text-gray-700 hover:text-primary-600" data-i18n="navigation.skills">Skills</a>
+        <a href="#experience" class="block py-2 text-gray-700 hover:text-primary-600" data-i18n="navigation.experience">Experience</a>
+        <a href="#certificates" class="block py-2 text-gray-700 hover:text-primary-600" data-i18n="navigation.certificates">Certificates</a>
+        <a href="#contact" class="block py-2 text-gray-700 hover:text-primary-600" data-i18n="navigation.contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
+    <div class="absolute inset-0 bg-gradient-to-br from-primary-50 via-white to-secondary-50"></div>
+    <div class="absolute inset-0 opacity-10">
+      <div class="absolute top-10 left-10 w-64 h-64 bg-primary-300 rounded-full mix-blend-multiply filter blur-xl floating-element"></div>
+      <div class="absolute top-32 right-10 w-64 h-64 bg-secondary-300 rounded-full mix-blend-multiply filter blur-xl floating-element" style="animation-delay: -2s;"></div>
+      <div class="absolute bottom-10 left-1/2 w-64 h-64 bg-accent-300 rounded-full mix-blend-multiply filter blur-xl floating-element" style="animation-delay: -4s;"></div>
+    </div>
+    
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <!-- Profile Image -->
+        <div class="flex justify-center lg:justify-end order-2 lg:order-1">
+          <div class="relative">
+            <div class="w-80 h-80 rounded-full overflow-hidden shadow-2xl ring-8 ring-white">
+              <div class="w-full h-full p-4">
+                <img src="/Images/professional-headshot.jpg" alt="Shehata Antonious - Senior Software Engineer" class="w-full h-full object-cover object-top rounded-full">
+              </div>
+            </div>
+            <div class="absolute -top-4 -right-4 w-24 h-24 bg-gradient-to-r from-primary-500 to-secondary-500 rounded-full flex items-center justify-center shadow-lg animate-pulse-slow">
+              <i class="fas fa-code text-white text-2xl"></i>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Hero Content -->
+        <div class="text-center lg:text-left order-1 lg:order-2">
+          <div class="mb-6">
+            <p class="text-primary-600 font-medium text-lg mb-2" data-i18n="hero.greeting">Hello, I'm</p>
+            <h1 class="text-5xl lg:text-6xl font-display font-bold text-gray-900 mb-4" data-i18n="name">Shehata Antonious</h1>
+            <div class="text-2xl lg:text-3xl font-medium text-gray-700 mb-6">
+              <span class="typing-effect" data-i18n="job_title">Senior Software Engineer</span>
+            </div>
+            
+            <!-- Contact Info -->
+            <div class="flex flex-wrap justify-center lg:justify-start gap-4 mb-6 text-sm text-gray-600">
+              <div class="flex items-center">
+                <i class="fas fa-phone text-primary-500 mr-2"></i>
+                <span data-i18n="contact_info.phone">+4917739448619</span>
+              </div>
+              <div class="flex items-center">
+                <i class="fas fa-envelope text-primary-500 mr-2"></i>
+                <span data-i18n="contact_info.email">antoniousmaher@gmail.com</span>
+              </div>
+              <div class="flex items-center">
+                <i class="fas fa-map-marker-alt text-primary-500 mr-2"></i>
+                <span data-i18n="contact_info.location">Potsdam, Germany</span>
+              </div>
+            </div>
+          </div>
+          
+          <p class="text-lg text-gray-600 mb-8 max-w-xl" data-i18n="about_text">Full-stack developer with deep experience in software development, digital transformation, and agile leadership. Specialized in advanced computing and digital innovation.</p>
+          
+          <!-- CTA Buttons -->
+          <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+            <a href="#contact" class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-primary-600 to-secondary-600 text-white font-medium rounded-lg hover:from-primary-700 hover:to-secondary-700 transition-all transform hover:scale-105 shadow-lg hover:shadow-xl">
+              <i class="fas fa-envelope mr-2"></i>
+              <span data-i18n="hero.cta">Get In Touch</span>
+            </a>
+            <button id="cv-button" onclick="openCVModal();" class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-green-600 to-blue-600 text-white font-semibold rounded-lg hover:from-green-700 hover:to-blue-700 transition-all transform hover:scale-105 shadow-lg hover:shadow-xl border-0 outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2">
+              <i class="fas fa-file-pdf mr-2"></i>
+              <span data-i18n="hero.download_cv">View CV</span>
+            </button>
+            <a href="#experience" class="inline-flex items-center px-6 py-3 border-2 border-primary-600 text-primary-600 font-medium rounded-lg hover:bg-primary-600 hover:text-white transition-all transform hover:scale-105">
+              <i class="fas fa-briefcase mr-2"></i>
+              <span data-i18n="hero.view_work">View My Work</span>
+            </a>
+          </div>
+          
+          <!-- Social Links -->
+          <div class="flex justify-center lg:justify-start space-x-6 mt-8">
+            <a href="https://github.com/AntoniousShehata" target="_blank" class="w-12 h-12 bg-white rounded-full shadow-lg flex items-center justify-center text-gray-600 hover:text-primary-600 hover:shadow-xl transition-all transform hover:scale-110">
+              <i class="fab fa-github text-xl"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/a-shehata" target="_blank" class="w-12 h-12 bg-white rounded-full shadow-lg flex items-center justify-center text-gray-600 hover:text-primary-600 hover:shadow-xl transition-all transform hover:scale-110">
+              <i class="fab fa-linkedin text-xl"></i>
+            </a>
+            <a href="mailto:antoniousmaher@gmail.com" class="w-12 h-12 bg-white rounded-full shadow-lg flex items-center justify-center text-gray-600 hover:text-primary-600 hover:shadow-xl transition-all transform hover:scale-110">
+              <i class="fas fa-envelope text-xl"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Scroll Indicator -->
+    <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce-soft">
+      <div class="w-6 h-10 border-2 border-gray-400 rounded-full flex justify-center">
+        <div class="w-1 h-3 bg-gray-400 rounded-full mt-2 animate-pulse"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-display font-bold text-gray-900 mb-4" data-i18n="about_title">About Me</h2>
+        <div class="w-24 h-1 bg-gradient-to-r from-primary-500 to-secondary-500 mx-auto rounded-full"></div>
+      </div>
+      
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <!-- Education -->
+        <div class="card-hover bg-gradient-to-br from-primary-50 to-white p-8 rounded-2xl shadow-soft">
+          <div class="w-16 h-16 bg-gradient-to-r from-primary-500 to-secondary-500 rounded-xl flex items-center justify-center mb-6">
+            <i class="fas fa-graduation-cap text-white text-2xl"></i>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-900 mb-4" data-i18n="education.title">Education</h3>
+          <div class="space-y-3 text-gray-600">
+            <p class="text-sm" data-i18n="education.gisma"></p>
+            <p class="text-sm" data-i18n="education.eslsca"></p>
+            <p class="text-sm" data-i18n="education.helwan"></p>
+          </div>
+        </div>
+        
+        <!-- Languages -->
+        <div class="card-hover bg-gradient-to-br from-secondary-50 to-white p-8 rounded-2xl shadow-soft">
+          <div class="w-16 h-16 bg-gradient-to-r from-secondary-500 to-accent-500 rounded-xl flex items-center justify-center mb-6">
+            <i class="fas fa-globe text-white text-2xl"></i>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-900 mb-4" data-i18n="languages.title">Languages</h3>
+          <div class="space-y-4">
+            <div>
+              <div class="flex justify-between items-center mb-2">
+                <span class="text-gray-700 font-medium" data-i18n="languages.german.name">German</span>
+                <span class="text-sm text-gray-500" data-i18n="languages.german.level">Business Level (B1)</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-2">
+                <div class="bg-gradient-to-r from-blue-500 to-blue-600 h-2 rounded-full" style="width: 60%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between items-center mb-2">
+                <span class="text-gray-700 font-medium" data-i18n="languages.english.name">English</span>
+                <span class="text-sm text-gray-500" data-i18n="languages.english.level">Advanced (C1)</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-2">
+                <div class="bg-gradient-to-r from-green-500 to-green-600 h-2 rounded-full" style="width: 90%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between items-center mb-2">
+                <span class="text-gray-700 font-medium" data-i18n="languages.arabic.name">Arabic</span>
+                <span class="text-sm text-gray-500" data-i18n="languages.arabic.level">Native (C2)</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-2">
+                <div class="bg-gradient-to-r from-red-500 to-red-600 h-2 rounded-full" style="width: 100%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Additional Courses -->
+        <div class="card-hover bg-gradient-to-br from-accent-50 to-white p-8 rounded-2xl shadow-soft">
+          <div class="w-16 h-16 bg-gradient-to-r from-accent-500 to-primary-500 rounded-xl flex items-center justify-center mb-6">
+            <i class="fas fa-certificate text-white text-2xl"></i>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-900 mb-4" data-i18n="additional_education.title">Further Education</h3>
+          <div class="space-y-3 text-gray-600">
+            <div>
+              <p class="font-medium text-gray-800" data-i18n="additional_education.ci"></p>
+            </div>
+            <div>
+              <p class="font-medium text-gray-800" data-i18n="additional_education.hertie"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-20 bg-gradient-to-br from-gray-50 to-primary-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-display font-bold text-gray-900 mb-4" data-i18n="skills.title">Skills & Technologies</h2>
+        <div class="w-24 h-1 bg-gradient-to-r from-primary-500 to-secondary-500 mx-auto rounded-full"></div>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Frontend Skills -->
+        <div class="bg-white p-6 rounded-2xl shadow-soft card-hover">
+          <div class="flex items-center mb-4">
+            <div class="w-10 h-10 bg-gradient-to-r from-blue-500 to-blue-600 rounded-lg flex items-center justify-center mr-3">
+              <i class="fas fa-palette text-white"></i>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900">Frontend</h3>
+          </div>
+          <div class="text-sm text-gray-600" data-i18n="skills.frontend">
+            HTML5, CSS3, JavaScript(ES6+), ReactJS, Responsive Design (Bootstrap, Tailwind CSS), REST API Integration, Cross-Browser Compatibility
+          </div>
+        </div>
+        
+        <!-- Backend Skills -->
+        <div class="bg-white p-6 rounded-2xl shadow-soft card-hover">
+          <div class="flex items-center mb-4">
+            <div class="w-10 h-10 bg-gradient-to-r from-green-500 to-green-600 rounded-lg flex items-center justify-center mr-3">
+              <i class="fas fa-server text-white"></i>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900">Backend</h3>
+          </div>
+          <div class="text-sm text-gray-600" data-i18n="skills.backend">
+            C#, .NET (ASP.NET Core, MVC), REST API Development, Microservices Architecture, Authentication: JWT, OAuth2
+          </div>
+        </div>
+        
+        <!-- Database Skills -->
+        <div class="bg-white p-6 rounded-2xl shadow-soft card-hover">
+          <div class="flex items-center mb-4">
+            <div class="w-10 h-10 bg-gradient-to-r from-red-500 to-red-600 rounded-lg flex items-center justify-center mr-3">
+              <i class="fas fa-database text-white"></i>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900">Database</h3>
+          </div>
+          <div class="text-sm text-gray-600" data-i18n="skills.databases">
+            SQL: MS SQL Server, MySQL, NoSQL: MongoDB, Database Design & Querying
+          </div>
+        </div>
+        
+        <!-- DevOps & Cloud -->
+        <div class="bg-white p-6 rounded-2xl shadow-soft card-hover">
+          <div class="flex items-center mb-4">
+            <div class="w-10 h-10 bg-gradient-to-r from-purple-500 to-purple-600 rounded-lg flex items-center justify-center mr-3">
+              <i class="fas fa-cloud text-white"></i>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900">DevOps & Cloud</h3>
+          </div>
+          <div class="text-sm text-gray-600" data-i18n="skills.devops">
+            CI/CD: GitHub Actions, GitLab CI, Containerization: Docker, Cloud Platforms: Microsoft Azure (App Services, Blob Storage), Event-driven: Kafka
+          </div>
+        </div>
+        
+        <!-- Version Control -->
+        <div class="bg-white p-6 rounded-2xl shadow-soft card-hover">
+          <div class="flex items-center mb-4">
+            <div class="w-10 h-10 bg-gradient-to-r from-orange-500 to-orange-600 rounded-lg flex items-center justify-center mr-3">
+              <i class="fab fa-git-alt text-white"></i>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900">Version Control</h3>
+          </div>
+          <div class="text-sm text-gray-600" data-i18n="skills.version_control">
+            Git (GitHub, GitLab), Agile / Scrum
+          </div>
+        </div>
+        
+        <!-- Testing -->
+        <div class="bg-white p-6 rounded-2xl shadow-soft card-hover">
+          <div class="flex items-center mb-4">
+            <div class="w-10 h-10 bg-gradient-to-r from-teal-500 to-teal-600 rounded-lg flex items-center justify-center mr-3">
+              <i class="fas fa-vial text-white"></i>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900">Testing</h3>
+          </div>
+          <div class="text-sm text-gray-600" data-i18n="skills.testing">
+            Unit Testing: NUnit, xUnit, Integration Testing
+          </div>
+        </div>
+        
+        <!-- Machine Learning -->
+        <div class="bg-white p-6 rounded-2xl shadow-soft card-hover">
+          <div class="flex items-center mb-4">
+            <div class="w-10 h-10 bg-gradient-to-r from-indigo-500 to-indigo-600 rounded-lg flex items-center justify-center mr-3">
+              <i class="fas fa-brain text-white"></i>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900">Machine Learning</h3>
+          </div>
+          <div class="text-sm text-gray-600" data-i18n="skills.machine_learning">
+            Python (NumPy, Pandas, Matplotlib), Scikit-learn, Model training, evaluation, Jupyter Notebooks
+          </div>
+        </div>
+        
+        <!-- Soft Skills -->
+        <div class="bg-white p-6 rounded-2xl shadow-soft card-hover">
+          <div class="flex items-center mb-4">
+            <div class="w-10 h-10 bg-gradient-to-r from-pink-500 to-pink-600 rounded-lg flex items-center justify-center mr-3">
+              <i class="fas fa-users text-white"></i>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900">Soft Skills</h3>
+          </div>
+          <div class="text-sm text-gray-600" data-i18n="skills.soft_skills">
+            Strong Communication & Team Collaboration, Problem Solving & Critical Thinking, Fast Learner, High Ownership, Self-Driven
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-display font-bold text-gray-900 mb-4" data-i18n="experience.title">Professional Experience</h2>
+        <div class="w-24 h-1 bg-gradient-to-r from-primary-500 to-secondary-500 mx-auto rounded-full"></div>
+      </div>
+      
+      <!-- Timeline -->
+      <div class="relative">
+        <div class="absolute left-1/2 transform -translate-x-1/2 w-0.5 h-full bg-gradient-to-b from-primary-500 to-secondary-500"></div>
+        
+        <!-- Experience Items -->
+        <div class="space-y-12">
+          <!-- Senior Software Engineer Section -->
+          <div class="text-center mb-8">
+            <div class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-full">
+              <i class="fas fa-star mr-3"></i>
+              <span class="font-semibold" data-i18n="experience.parliament.title">Senior Software Engineer – Information Technology Center – Head Office (2018 – 2023)</span>
+            </div>
+            <p class="text-gray-600 mt-2" data-i18n="experience.parliament.company">Egyptian Parliament – Cairo, Egypt</p>
+          </div>
+          
+          <!-- Integrated ERP Modules -->
+          <div class="relative flex items-center">
+            <div class="flex-1 pr-8">
+              <div class="bg-gradient-to-r from-primary-50 to-white p-8 rounded-2xl shadow-soft card-hover ml-auto max-w-3xl">
+                <div class="flex items-center mb-4">
+                  <div class="w-12 h-12 bg-gradient-to-r from-primary-500 to-secondary-500 rounded-lg flex items-center justify-center mr-4">
+                    <i class="fas fa-cubes text-white"></i>
+                  </div>
+                  <div>
+                    <h3 class="text-xl font-semibold text-gray-900" data-i18n="experience.parliament.integrated_erp.title">Integrated ERP Modules (2021-2023)</h3>
+                    <p class="text-sm text-primary-600">2021 - 2023</p>
+                  </div>
+                </div>
+                <div class="text-gray-600 text-sm" data-i18n="experience.parliament.integrated_erp.details">
+                  • Designed a unified platform used by 4,000+ staff in procurement, logistics and finance<br/>
+                  • Consolidated four legacy systems into a centralized solution with consistent data and modular architecture<br/>
+                  • Standardized over 5,000 item records, reducing data duplication and manual correction by 65%<br/>
+                  • Enhanced settlement workflows for pharmacy and staff funds in coordination with over 50 vendors<br/>
+                  • Created executive dashboards to visualize 5-year historical data and financial forecasts<br/>
+                  <strong>Tech Stack:</strong> ASP.NET MVC (5), C#, SQL Server 2017, REST APIs, Power BI, Crystal Reports, Git
+                </div>
+              </div>
+            </div>
+            <div class="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-primary-500 rounded-full border-4 border-white shadow-lg"></div>
+            <div class="flex-1 pl-8"></div>
+          </div>
+          
+          <!-- Parliamentary Session & Voting Management -->
+          <div class="relative flex items-center">
+            <div class="flex-1 pr-8"></div>
+            <div class="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-secondary-500 rounded-full border-4 border-white shadow-lg"></div>
+            <div class="flex-1 pl-8">
+              <div class="bg-gradient-to-r from-secondary-50 to-white p-8 rounded-2xl shadow-soft card-hover max-w-3xl">
+                <div class="flex items-center mb-4">
+                  <div class="w-12 h-12 bg-gradient-to-r from-secondary-500 to-accent-500 rounded-lg flex items-center justify-center mr-4">
+                    <i class="fas fa-vote-yea text-white"></i>
+                  </div>
+                  <div>
+                    <h3 class="text-xl font-semibold text-gray-900" data-i18n="experience.parliament.session_management.title">Parliamentary Session & Voting Management System (2019-2021)</h3>
+                    <p class="text-sm text-secondary-600">2019 - 2021</p>
+                  </div>
+                </div>
+                <div class="text-gray-600 text-sm" data-i18n="experience.parliament.session_management.details">
+                  • Maintained and optimized mission-critical systems serving 1,200 Members of Parliament<br/>
+                  • Connected encrypted voting records to MP profiles to ensure traceability and compliance<br/>
+                  • Solved key synchronization issues and enabled real-time dashboards for session attendance and voting<br/>
+                  • Automated upload and indexing for session recordings every 15 minutes with searchable playback<br/>
+                  • Built a tool that reduced transcript preparation from 3 weeks to under an hour<br/>
+                  <strong>Tech Stack:</strong> ASP.NET MVC, JavaScript (ES6), SQL Server, Azure Blob Storage, Kafka, jQuery, SignalR
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- E-Request Platform -->
+          <div class="relative flex items-center">
+            <div class="flex-1 pr-8">
+              <div class="bg-gradient-to-r from-accent-50 to-white p-8 rounded-2xl shadow-soft card-hover ml-auto max-w-3xl">
+                <div class="flex items-center mb-4">
+                  <div class="w-12 h-12 bg-gradient-to-r from-accent-500 to-primary-500 rounded-lg flex items-center justify-center mr-4">
+                    <i class="fas fa-clipboard-list text-white"></i>
+                  </div>
+                  <div>
+                    <h3 class="text-xl font-semibold text-gray-900" data-i18n="experience.parliament.erequest_platform.title">E-Request Platform for Parliamentary Members (2018-2019)</h3>
+                    <p class="text-sm text-accent-600">2018 - 2019</p>
+                  </div>
+                </div>
+                <div class="text-gray-600 text-sm" data-i18n="experience.parliament.erequest_platform.details">
+                  • Built a secure internal request system used by 1,200 MPs to interact with ministries<br/>
+                  • Implemented full role-based access control with detailed activity logging<br/>
+                  • Cut request turnaround time by 45% via automated workflows and notifications<br/>
+                  • Improved adoption and platform engagement by 90% after redesign and performance tuning<br/>
+                  <strong>Tech Stack:</strong> ASP.NET MVC, C#, SQL Server, Bootstrap 4, Microservices (modular services via HTTP APIs)
+                </div>
+              </div>
+            </div>
+            <div class="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-accent-500 rounded-full border-4 border-white shadow-lg"></div>
+            <div class="flex-1 pl-8"></div>
+          </div>
+          
+          <!-- Mid-Level Software Engineer Section -->
+          <div class="text-center mb-8 mt-16">
+            <div class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-green-600 to-teal-600 text-white rounded-full">
+              <i class="fas fa-code mr-3"></i>
+              <span class="font-semibold" data-i18n="experience.mid_level.title">Mid-Level Software Engineer – Information Systems Development Department (2015 – 2018)</span>
+            </div>
+            <p class="text-gray-600 mt-2" data-i18n="experience.mid_level.company">Egyptian Parliament – Cairo, Egypt</p>
+          </div>
+          
+          <!-- Digital Document Archiving -->
+          <div class="relative flex items-center">
+            <div class="flex-1 pr-8"></div>
+            <div class="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-green-500 rounded-full border-4 border-white shadow-lg"></div>
+            <div class="flex-1 pl-8">
+              <div class="bg-gradient-to-r from-green-50 to-white p-8 rounded-2xl shadow-soft card-hover max-w-3xl">
+                <div class="flex items-center mb-4">
+                  <div class="w-12 h-12 bg-gradient-to-r from-green-500 to-teal-500 rounded-lg flex items-center justify-center mr-4">
+                    <i class="fas fa-archive text-white"></i>
+                  </div>
+                  <div>
+                    <h3 class="text-xl font-semibold text-gray-900" data-i18n="experience.mid_level.digital_archiving.title">Digital Document Archiving (2016–2018)</h3>
+                    <p class="text-sm text-green-600">2016 - 2018</p>
+                  </div>
+                </div>
+                <div class="text-gray-600 text-sm" data-i18n="experience.mid_level.digital_archiving.details">
+                  • Implemented a centralized archiving system managing 100,000+ scanned files<br/>
+                  • Enabled rapid document retrieval, reducing time from hours to seconds<br/>
+                  • Reduced physical document usage by 95% through complete digitization<br/>
+                  <strong>Tech Stack:</strong> C#, ASP.NET Web Forms, SQL Server 2014, Containerization: Docker, Windows Services
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Junior Software Engineer Section -->
+          <div class="text-center mb-8 mt-16">
+            <div class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-orange-600 to-red-600 text-white rounded-full">
+              <i class="fas fa-rocket mr-3"></i>
+              <span class="font-semibold" data-i18n="experience.junior.title">Junior Software Engineer – Project Management Department (2013 – 2015)</span>
+            </div>
+            <p class="text-gray-600 mt-2" data-i18n="experience.junior.company">Egyptian Parliament – Cairo, Egypt</p>
+          </div>
+          
+          <!-- Legacy Database Migration -->
+          <div class="relative flex items-center">
+            <div class="flex-1 pr-8">
+              <div class="bg-gradient-to-r from-orange-50 to-white p-8 rounded-2xl shadow-soft card-hover ml-auto max-w-3xl">
+                <div class="flex items-center mb-4">
+                  <div class="w-12 h-12 bg-gradient-to-r from-orange-500 to-red-500 rounded-lg flex items-center justify-center mr-4">
+                    <i class="fas fa-exchange-alt text-white"></i>
+                  </div>
+                  <div>
+                    <h3 class="text-xl font-semibold text-gray-900" data-i18n="experience.junior.legacy_migration.title">Legacy Database Migration Project (2013–2014)</h3>
+                    <p class="text-sm text-orange-600">2013 - 2014</p>
+                  </div>
+                </div>
+                <div class="text-gray-600 text-sm" data-i18n="experience.junior.legacy_migration.details">
+                  • Migrated over 1 million records from IBM DB2-based legacy system to modern SQL Server infrastructure<br/>
+                  • Created data mapping scripts and ran integrity validation during and post-migration<br/>
+                  • Achieved zero downtime and 100% data integrity<br/>
+                  <strong>Tech Stack:</strong> IBM DB2, SQL Server 2012, SQL Scripts, Data Migration Assistant
+                </div>
+              </div>
+            </div>
+            <div class="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-orange-500 rounded-full border-4 border-white shadow-lg"></div>
+            <div class="flex-1 pl-8"></div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Parliament Header -->
+      <div class="text-center mt-16 mb-8">
+        <div class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-primary-100 to-secondary-100 rounded-full">
+          <i class="fas fa-landmark text-primary-600 mr-3"></i>
+          <span class="font-semibold text-gray-800" data-i18n="experience.parliament.title">IT Department – Egyptian Parliament (2013–2023)</span>
+        </div>
+      </div>
+      
+      <!-- Quick Stats -->
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mt-12">
+        <div class="text-center">
+          <div class="text-3xl font-bold text-primary-600 mb-2">10+</div>
+          <div class="text-gray-600" data-i18n="stats.years_experience">Years Experience</div>
+        </div>
+        <div class="text-center">
+          <div class="text-3xl font-bold text-secondary-600 mb-2">7+</div>
+          <div class="text-gray-600" data-i18n="stats.major_projects">Major Projects</div>
+        </div>
+        <div class="text-center">
+          <div class="text-3xl font-bold text-accent-600 mb-2">95%</div>
+          <div class="text-gray-600" data-i18n="stats.paper_reduction">Paper Reduction</div>
+        </div>
+        <div class="text-center">
+          <div class="text-3xl font-bold text-primary-600 mb-2">100+</div>
+          <div class="text-gray-600" data-i18n="stats.users_impacted">Users Impacted</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificates Section -->
+  <section id="certificates" class="py-20 bg-gradient-to-br from-gray-50 to-secondary-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-display font-bold text-gray-900 mb-4" data-i18n="certificates.title">Certificates & Achievements</h2>
+        <div class="w-24 h-1 bg-gradient-to-r from-primary-500 to-secondary-500 mx-auto rounded-full"></div>
+      </div>
+      
+      <!-- Filter Buttons -->
+      <div class="flex flex-wrap justify-center gap-4 mb-12">
+        <button class="cert-filter active px-6 py-2 bg-primary-600 text-white rounded-full font-medium hover:bg-primary-700 transition-colors" data-filter="all">All Certificates</button>
+        <button class="cert-filter px-6 py-2 bg-white text-gray-700 rounded-full font-medium hover:bg-gray-100 transition-colors border border-gray-200" data-filter="microsoft">Microsoft</button>
+        <button class="cert-filter px-6 py-2 bg-white text-gray-700 rounded-full font-medium hover:bg-gray-100 transition-colors border border-gray-200" data-filter="mcit">MCIT Egypt</button>
+        <button class="cert-filter px-6 py-2 bg-white text-gray-700 rounded-full font-medium hover:bg-gray-100 transition-colors border border-gray-200" data-filter="university">Universities</button>
+      </div>
+      
+      <!-- Certificates Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="certificates-grid">
+        <!-- Certificate items will be populated by JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-gradient-to-br from-primary-900 via-secondary-900 to-accent-900 text-white relative overflow-hidden">
+    <div class="absolute inset-0 opacity-20">
+      <div class="absolute top-0 left-0 w-96 h-96 bg-primary-500 rounded-full mix-blend-multiply filter blur-3xl floating-element"></div>
+      <div class="absolute bottom-0 right-0 w-96 h-96 bg-secondary-500 rounded-full mix-blend-multiply filter blur-3xl floating-element" style="animation-delay: -3s;"></div>
+    </div>
+    
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-display font-bold mb-4" data-i18n="contact.subtitle">Let's Work Together</h2>
+        <div class="w-24 h-1 bg-white mx-auto rounded-full mb-6"></div>
+        <p class="text-xl text-gray-300 max-w-2xl mx-auto" data-i18n="contact.description">Ready to bring your ideas to life? I'm always open to discussing new opportunities and interesting projects.</p>
+      </div>
+      
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <!-- Contact Info -->
+        <div class="space-y-8">
+          <div class="flex items-center space-x-4">
+            <div class="w-16 h-16 bg-white/10 backdrop-blur-sm rounded-xl flex items-center justify-center">
+              <i class="fas fa-envelope text-2xl"></i>
+            </div>
+            <div>
+              <h3 class="text-xl font-semibold mb-1" data-i18n="contact.info.email_label">Email</h3>
+              <p class="text-gray-300" data-i18n="contact_info.email">antoniousmaher@gmail.com</p>
+            </div>
+          </div>
+          
+          <div class="flex items-center space-x-4">
+            <div class="w-16 h-16 bg-white/10 backdrop-blur-sm rounded-xl flex items-center justify-center">
+              <i class="fas fa-phone text-2xl"></i>
+            </div>
+            <div>
+              <h3 class="text-xl font-semibold mb-1" data-i18n="contact.info.phone_label">Phone</h3>
+              <p class="text-gray-300" data-i18n="contact_info.phone">+4917739448619</p>
+            </div>
+          </div>
+          
+          <div class="flex items-center space-x-4">
+            <div class="w-16 h-16 bg-white/10 backdrop-blur-sm rounded-xl flex items-center justify-center">
+              <i class="fas fa-map-marker-alt text-2xl"></i>
+            </div>
+            <div>
+              <h3 class="text-xl font-semibold mb-1" data-i18n="contact.info.location_label">Location</h3>
+              <p class="text-gray-300" data-i18n="contact_info.location">Potsdam, Germany</p>
+            </div>
+          </div>
+          
+          <!-- Social Links -->
+          <div class="pt-8">
+            <h3 class="text-xl font-semibold mb-4" data-i18n="contact.info.social">Follow Me</h3>
+            <div class="flex space-x-4">
+              <a href="https://github.com/AntoniousShehata" target="_blank" class="w-12 h-12 bg-white/10 backdrop-blur-sm rounded-lg flex items-center justify-center hover:bg-white/20 transition-all transform hover:scale-110">
+                <i class="fab fa-github text-xl"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/a-shehata" target="_blank" class="w-12 h-12 bg-white/10 backdrop-blur-sm rounded-lg flex items-center justify-center hover:bg-white/20 transition-all transform hover:scale-110">
+                <i class="fab fa-linkedin text-xl"></i>
+              </a>
+              <a href="mailto:antoniousmaher@gmail.com" class="w-12 h-12 bg-white/10 backdrop-blur-sm rounded-lg flex items-center justify-center hover:bg-white/20 transition-all transform hover:scale-110">
+                <i class="fas fa-envelope text-xl"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Contact Form -->
+        <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
+          <form class="space-y-6" id="contact-form">
+            <div>
+              <label for="name" class="block text-sm font-medium mb-2" data-i18n="contact.form.name">Your Name</label>
+              <input type="text" id="name" name="name" class="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg focus:ring-2 focus:ring-white/50 focus:border-transparent outline-none transition-all placeholder-gray-300" data-i18n-placeholder="contact.form.placeholders.name" placeholder="John Doe" required>
+            </div>
+            
+            <div>
+              <label for="email" class="block text-sm font-medium mb-2" data-i18n="contact.form.email">Your Email</label>
+              <input type="email" id="email" name="email" class="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg focus:ring-2 focus:ring-white/50 focus:border-transparent outline-none transition-all placeholder-gray-300" data-i18n-placeholder="contact.form.placeholders.email" placeholder="john@example.com" required>
+            </div>
+            
+            <div>
+              <label for="subject" class="block text-sm font-medium mb-2" data-i18n="contact.form.subject">Subject</label>
+              <input type="text" id="subject" name="subject" class="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg focus:ring-2 focus:ring-white/50 focus:border-transparent outline-none transition-all placeholder-gray-300" data-i18n-placeholder="contact.form.placeholders.subject" placeholder="Project Discussion" required>
+            </div>
+            
+            <div>
+              <label for="message" class="block text-sm font-medium mb-2" data-i18n="contact.form.message">Message</label>
+              <textarea id="message" name="message" rows="4" class="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg focus:ring-2 focus:ring-white/50 focus:border-transparent outline-none transition-all placeholder-gray-300 resize-none" data-i18n-placeholder="contact.form.placeholders.message" placeholder="Tell me about your project..." required></textarea>
+            </div>
+            
+            <button type="submit" class="w-full bg-white text-gray-900 font-semibold py-3 px-6 rounded-lg hover:bg-gray-100 transition-colors transform hover:scale-105 shadow-lg">
+              <i class="fas fa-paper-plane mr-2"></i>
+              <span data-i18n="contact.form.send">Send Message</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row justify-between items-center">
+        <div class="flex items-center space-x-3 mb-4 md:mb-0">
+          <div class="w-8 h-8 bg-gradient-to-r from-primary-500 to-secondary-500 rounded-full flex items-center justify-center">
+            <span class="text-white font-bold text-sm">AS</span>
+          </div>
+          <span class="font-semibold" data-i18n="name">Antonious Shehata</span>
+        </div>
+        
+        <div class="text-center md:text-right">
+          <p class="text-gray-400" data-i18n="rights">&copy; 2025 Antonious Shehata. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Certificate Modal -->
+  <div id="certificate-modal" class="certificate-modal">
+    <div class="bg-white rounded-2xl max-w-2xl mx-4 relative">
+      <button class="absolute top-4 right-4 w-10 h-10 bg-gray-100 hover:bg-gray-200 rounded-full flex items-center justify-center transition-colors" onclick="closeCertificateModal()">
+        <i class="fas fa-times text-gray-600"></i>
+      </button>
+      <div id="modal-content" class="p-8">
+        <!-- Modal content will be populated by JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- CV Modal -->
+  <div id="cv-modal" class="fixed inset-0 bg-black bg-opacity-50 backdrop-blur-sm z-50 hidden items-center justify-center p-4">
+    <div class="bg-white rounded-2xl w-full max-w-6xl h-[90vh] relative shadow-2xl">
+      <!-- Modal Header -->
+      <div class="flex items-center justify-between p-6 border-b border-gray-200">
+        <div class="flex items-center space-x-3">
+          <div class="w-12 h-12 bg-gradient-to-r from-primary-500 to-secondary-500 rounded-xl flex items-center justify-center">
+            <i class="fas fa-file-pdf text-white text-xl"></i>
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold text-gray-900">Curriculum Vitae</h3>
+            <p class="text-sm text-gray-600">Shehata Antonious - Senior Software Engineer</p>
+          </div>
+        </div>
+        <div class="flex items-center space-x-2">
+          <button onclick="closeCVModal()" class="w-10 h-10 bg-gray-100 hover:bg-gray-200 rounded-full flex items-center justify-center transition-colors">
+            <i class="fas fa-times text-gray-600"></i>
+          </button>
+        </div>
+      </div>
+      
+      <!-- Modal Content - CV Preview -->
+      <div class="h-full pb-20 p-6">
+        <div class="bg-gradient-to-br from-gray-50 to-blue-50 rounded-xl h-full flex items-center justify-center">
+          <div class="text-center max-w-md">
+            <div class="w-24 h-24 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-6">
+              <i class="fas fa-file-pdf text-white text-3xl"></i>
+            </div>
+                         <h3 class="text-2xl font-bold text-gray-900 mb-4" data-i18n="cv_modal.title">Professional CV</h3>
+             <p class="text-gray-600 mb-6" data-i18n="cv_modal.description">
+               View my complete curriculum vitae with detailed experience, education, and certifications.
+             </p>
+             <div class="space-y-3">
+               <a href="https://antonious-shehata.my.canva.site/softwareengineer5-antoniousshehata-cv" target="_blank" class="block w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold py-3 px-6 rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all transform hover:scale-105 shadow-lg">
+                 <i class="fas fa-external-link-alt mr-2"></i>
+                 <span data-i18n="cv_modal.open_full">Open Full CV in New Tab</span>
+               </a>
+               <button onclick="downloadCV()" class="block w-full bg-gradient-to-r from-green-600 to-blue-600 text-white font-semibold py-3 px-6 rounded-lg hover:from-green-700 hover:to-blue-700 transition-all transform hover:scale-105 shadow-lg">
+                 <i class="fas fa-download mr-2"></i>
+                 <span data-i18n="cv_modal.download">Download PDF Version</span>
+               </button>
+             </div>
+             <div class="mt-6 grid grid-cols-2 gap-4 text-sm text-gray-500">
+               <div class="text-center">
+                 <i class="fas fa-clock mb-1 block"></i>
+                 <span data-i18n="cv_modal.updated">Updated 2025</span>
+               </div>
+               <div class="text-center">
+                 <i class="fas fa-language mb-1 block"></i>
+                 <span data-i18n="cv_modal.languages">EN / DE</span>
+               </div>
+             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/i18next@21.6.10/dist/umd/i18next.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/i18next-http-backend@1.3.2/i18nextHttpBackend.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/i18next-browser-languagedetector@6.1.3/i18nextBrowserLanguageDetector.min.js"></script>
+  <!-- EmailJS -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  
+  <script>
+    // Initialize i18next
+    i18next
+      .use(i18nextHttpBackend)
+      .use(i18nextBrowserLanguageDetector)
+      .init({
+        lng: "en",
+        fallbackLng: 'en',
+        debug: false,
+        backend: {
+          loadPath: '/locales/{{lng}}/translation.json',
+        }
+      }, function(err, t) {
+        updateContent();
+        initializeCertificates();
+      });
+
+    function updateContent() {
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        const translation = i18next.t(key);
+        el.innerHTML = translation;
+      });
+      
+      // Update placeholders
+      document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+        const key = el.getAttribute('data-i18n-placeholder');
+        const translation = i18next.t(key);
+        el.placeholder = translation;
+      });
+    }
+
+    function changeLng(lng) {
+      i18next.changeLanguage(lng, () => {
+        updateContent();
+        initializeCertificates();
+        
+        // Update active language button
+        document.querySelectorAll('.lang-btn').forEach(btn => {
+          btn.classList.remove('bg-primary-600', 'text-white', 'border-primary-600');
+          btn.classList.add('hover:bg-primary-100', 'border-transparent');
+        });
+        event.target.classList.add('bg-primary-600', 'text-white', 'border-primary-600');
+        event.target.classList.remove('hover:bg-primary-100', 'border-transparent');
+      });
+    }
+
+    // Navigation scroll effect
+    window.addEventListener('scroll', () => {
+      const navbar = document.getElementById('navbar');
+      if (window.scrollY > 100) {
+        navbar.classList.add('nav-scrolled');
+      } else {
+        navbar.classList.remove('nav-scrolled');
+      }
+    });
+
+    // Mobile menu toggle
+    document.getElementById('mobile-menu-btn').addEventListener('click', () => {
+      const mobileMenu = document.getElementById('mobile-menu');
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    // Smooth scroll for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+          
+          // Close mobile menu if open
+          document.getElementById('mobile-menu').classList.add('hidden');
+        }
+      });
+    });
+
+    // Certificates data and functionality
+    const certificatesData = [
+      { id: 1, title: "Success Skills", provider: "Cambridge Training College", year: "2008", category: "university", image: "/certificates/1.jpg" },
+      { id: 2, title: "EDU Egypt Program", provider: "MCIT Egypt", year: "2008-2009", category: "mcit", image: "/certificates/2.jpg" },
+      { id: 3, title: "Crystal Report", provider: "National Telecommunication Institute", year: "2008", category: "university", image: "/certificates/3.jpg" },
+      { id: 4, title: "Querying Microsoft SQL Server 2012", provider: "New Horizons", year: "2014", category: "microsoft", image: "/certificates/4.jpg" },
+      { id: 5, title: "Administering Microsoft SQL Server 2012", provider: "New Horizons", year: "2014", category: "microsoft", image: "/certificates/5.jpg" },
+      { id: 6, title: "Developing Microsoft SQL Server 2012", provider: "New Horizons", year: "2014", category: "microsoft", image: "/certificates/6.jpg" },
+      { id: 7, title: "Programming in Visual Basic", provider: "New Horizons", year: "2014", category: "microsoft", image: "/certificates/7.jpg" },
+      { id: 8, title: "Web Development with Visual Studio 2010", provider: "New Horizons", year: "2014", category: "microsoft", image: "/certificates/8.jpg" },
+      { id: 9, title: "Core Solutions SharePoint Server 2013", provider: "Microsoft", year: "2016", category: "microsoft", image: "/certificates/9.jpg" },
+      { id: 10, title: "Advanced Solutions SharePoint Server 2013", provider: "Microsoft", year: "2016", category: "microsoft", image: "/certificates/10.jpg" },
+      { id: 11, title: "Programming in C# using Visual Studio 2017", provider: "Microsoft", year: "2019", category: "microsoft", image: "/certificates/11.jpg" },
+      { id: 12, title: "HTML5 + CSS + JavaScript", provider: "Microsoft", year: "2019", category: "microsoft", image: "/certificates/12.jpg" },
+      { id: 13, title: "ASP.net MVC", provider: "Microsoft", year: "2019", category: "microsoft", image: "/certificates/13.jpg" },
+      { id: 14, title: "Xamarin Cross-Platform Development", provider: "Microsoft", year: "2021", category: "microsoft", image: "/certificates/14.jpg" },
+      { id: 15, title: "Digital Marketing Challenger Track", provider: "MCIT Egypt", year: "2022", category: "mcit", image: "/certificates/15.jpg" },
+      { id: 16, title: "Data Challenger Track", provider: "MCIT Egypt", year: "2022", category: "mcit", image: "/certificates/16.jpg" },
+      { id: 17, title: "IT Service Management - ITSM", provider: "MCIT Egypt", year: "2022", category: "mcit", image: "/certificates/17.jpg" },
+      { id: 18, title: "Data Analysis Professional Track", provider: "MCIT Egypt", year: "2022", category: "mcit", image: "/certificates/18.jpg" },
+      { id: 19, title: "Good Governance and Digitalization", provider: "Hertie School", year: "2022", category: "university", image: "/certificates/19.jpg" },
+      { id: 20, title: "Personal Leadership Master Degree", provider: "IC University", year: "2024", category: "university", image: "/certificates/20.jpg" },
+      { id: 21, title: "GISMA Skills Sprint Week", provider: "Gisma University", year: "2024", category: "university", image: "/certificates/21.jpg" }
+    ];
+
+    function initializeCertificates() {
+      const grid = document.getElementById('certificates-grid');
+      grid.innerHTML = '';
+      
+      certificatesData.forEach(cert => {
+        const certElement = document.createElement('div');
+        certElement.className = `certificate-item card-hover bg-white rounded-2xl shadow-soft overflow-hidden cursor-pointer ${cert.category}`;
+        certElement.innerHTML = `
+          <div class="aspect-w-16 aspect-h-12 bg-gray-200">
+            <img src="${cert.image}" alt="${cert.title}" class="w-full h-48 object-cover" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div class="w-full h-48 bg-gradient-to-br from-primary-100 to-secondary-100 flex items-center justify-center" style="display: none;">
+              <i class="fas fa-certificate text-6xl text-primary-400"></i>
+            </div>
+          </div>
+          <div class="p-6">
+            <h3 class="font-semibold text-gray-900 mb-2">${cert.title}</h3>
+            <p class="text-gray-600 text-sm mb-2">${cert.provider}</p>
+            <div class="flex justify-between items-center">
+              <span class="text-xs text-gray-500">${cert.year}</span>
+              <span class="px-2 py-1 bg-primary-100 text-primary-700 rounded-full text-xs font-medium">${cert.category}</span>
+            </div>
+          </div>
+        `;
+        
+        certElement.addEventListener('click', () => openCertificateModal(cert));
+        grid.appendChild(certElement);
+      });
+    }
+
+    function openCertificateModal(cert) {
+      const modal = document.getElementById('certificate-modal');
+      const content = document.getElementById('modal-content');
+      
+      content.innerHTML = `
+        <div class="text-center">
+          <div class="w-24 h-24 bg-gradient-to-r from-primary-500 to-secondary-500 rounded-full flex items-center justify-center mx-auto mb-6">
+            <i class="fas fa-certificate text-white text-3xl"></i>
+          </div>
+          <h2 class="text-2xl font-bold text-gray-900 mb-4">${cert.title}</h2>
+          <p class="text-lg text-gray-600 mb-2">${cert.provider}</p>
+          <p class="text-primary-600 font-semibold mb-6">${cert.year}</p>
+          <div class="bg-gray-50 rounded-xl p-6 mb-6">
+            <img src="${cert.image}" alt="${cert.title}" class="w-full max-w-md mx-auto rounded-lg shadow-lg" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+            <div class="w-full h-48 bg-gradient-to-br from-primary-100 to-secondary-100 flex items-center justify-center rounded-lg" style="display: none;">
+              <i class="fas fa-certificate text-6xl text-primary-400"></i>
+            </div>
+          </div>
+          <div class="flex justify-center">
+            <span class="px-4 py-2 bg-primary-100 text-primary-700 rounded-full font-medium">${cert.category.charAt(0).toUpperCase() + cert.category.slice(1)}</span>
+          </div>
+        </div>
+      `;
+      
+      modal.classList.add('active');
+    }
+
+    function closeCertificateModal() {
+      document.getElementById('certificate-modal').classList.remove('active');
+    }
+
+    // Certificate filtering
+    document.addEventListener('DOMContentLoaded', () => {
+      const filterButtons = document.querySelectorAll('.cert-filter');
+      
+      filterButtons.forEach(button => {
+        button.addEventListener('click', () => {
+          const filter = button.getAttribute('data-filter');
+          
+          // Update active button
+          filterButtons.forEach(btn => {
+            btn.classList.remove('active', 'bg-primary-600', 'text-white');
+            btn.classList.add('bg-white', 'text-gray-700');
+          });
+          button.classList.add('active', 'bg-primary-600', 'text-white');
+          button.classList.remove('bg-white', 'text-gray-700');
+          
+          // Filter certificates
+          const certificates = document.querySelectorAll('.certificate-item');
+          certificates.forEach(cert => {
+            if (filter === 'all' || cert.classList.contains(filter)) {
+              cert.style.display = 'block';
+              cert.classList.add('animate-fade-in');
+            } else {
+              cert.style.display = 'none';
+            }
+          });
+        });
+      });
+    });
+
+    // Contact form handling with Formspree
+    document.getElementById('contact-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      // Get form data
+      const formData = new FormData(this);
+      const data = Object.fromEntries(formData);
+      
+      // Simple form validation
+      if (!data.name || !data.email || !data.subject || !data.message) {
+        showNotification('Please fill in all fields', 'error');
+        return;
+      }
+      
+      // Email validation
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!emailRegex.test(data.email)) {
+        showNotification('Please enter a valid email address', 'error');
+        return;
+      }
+      
+      const submitButton = this.querySelector('button[type="submit"]');
+      const originalText = submitButton.innerHTML;
+      
+      submitButton.innerHTML = '<i class="fas fa-spinner fa-spin mr-2"></i>Sending...';
+      submitButton.disabled = true;
+      
+      // Formspree endpoint for contact form
+      const formspreeEndpoint = 'https://formspree.io/f/movlvjqp';
+      
+      // Send via Formspree
+      const formDataToSend = new FormData();
+      formDataToSend.append('name', data.name);
+      formDataToSend.append('email', data.email);
+      formDataToSend.append('subject', data.subject);
+      formDataToSend.append('message', data.message);
+      
+      fetch(formspreeEndpoint, {
+        method: 'POST',
+        body: formDataToSend,
+        headers: {
+          'Accept': 'application/json'
+        }
+      })
+      .then(response => {
+        if (response.ok) {
+          return response.json();
+        } else {
+          throw new Error('Network response was not ok');
+        }
+      })
+      .then(result => {
+        showNotification('Message sent successfully! I\'ll get back to you soon.', 'success');
+        document.getElementById('contact-form').reset();
+      })
+      .catch(error => {
+        console.error('Error:', error);
+        showNotification('Failed to send message. Please try again later.', 'error');
+      })
+      .finally(() => {
+        // Reset button state
+        submitButton.innerHTML = originalText;
+        submitButton.disabled = false;
+      });
+    });
+
+    // Function to show notifications
+    function showNotification(message, type) {
+      const notification = document.createElement('div');
+      const bgColor = type === 'success' ? 'bg-green-500' : 'bg-red-500';
+      const icon = type === 'success' ? 'fa-check-circle' : 'fa-exclamation-circle';
+      
+      notification.className = `fixed top-20 right-4 ${bgColor} text-white px-6 py-4 rounded-lg shadow-lg z-50 transform translate-x-full transition-transform duration-300`;
+      notification.innerHTML = `<i class="fas ${icon} mr-2"></i>${message}`;
+      
+      document.body.appendChild(notification);
+      
+      // Animate in
+      setTimeout(() => {
+        notification.classList.remove('translate-x-full');
+      }, 100);
+      
+      // Remove notification after 5 seconds
+      setTimeout(() => {
+        notification.classList.add('translate-x-full');
+        setTimeout(() => {
+          notification.remove();
+        }, 300);
+      }, 5000);
+    }
+
+    // Close modal when clicking outside
+    document.getElementById('certificate-modal').addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeCertificateModal();
+      }
+    });
+
+    // CV Modal Functions - Global scope
+    window.openCVModal = function() {
+      const modal = document.getElementById('cv-modal');
+      
+      if (modal) {
+        modal.classList.remove('hidden');
+        modal.classList.add('flex');
+        
+        // Disable body scroll
+        document.body.style.overflow = 'hidden';
+      }
+    }
+
+    // Download CV function
+    window.downloadCV = function() {
+      // You can add a direct PDF download link here when available
+      // For now, it opens the Canva link in a new tab
+      window.open('https://antonious-shehata.my.canva.site/softwareengineer5-antoniousshehata-cv', '_blank');
+    }
+
+    window.closeCVModal = function() {
+      const modal = document.getElementById('cv-modal');
+      if (modal) {
+        modal.classList.add('hidden');
+        modal.classList.remove('flex');
+        
+        // Re-enable body scroll
+        document.body.style.overflow = 'auto';
+      }
+    }
+
+    // Setup CV modal event listeners when DOM is ready
+    document.addEventListener('DOMContentLoaded', function() {
+      console.log('DOM loaded, setting up CV modal listeners...');
+      
+      // Close CV modal when clicking outside
+      const cvModal = document.getElementById('cv-modal');
+      if (cvModal) {
+        cvModal.addEventListener('click', function(e) {
+          if (e.target === this) {
+            closeCVModal();
+          }
+        });
+        console.log('CV modal click listener added');
+      } else {
+        console.error('CV modal not found for event listener setup');
+      }
+
+      // Close CV modal with Escape key
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+          closeCVModal();
+        }
+      });
+      
+      // Alternative button click listener (backup)
+      const cvButton = document.getElementById('cv-button');
+      if (cvButton) {
+        cvButton.addEventListener('click', function(e) {
+          e.preventDefault();
+          console.log('Button clicked via event listener');
+          openCVModal();
+        });
+        console.log('CV button event listener added');
+      }
+    });
+
+    // Intersection Observer for animations
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animate-slide-up');
+        }
+      });
+    }, observerOptions);
+
+    // Observe elements for animation
+    document.addEventListener('DOMContentLoaded', () => {
+      const animateElements = document.querySelectorAll('.card-hover, .skill-item');
+      animateElements.forEach(el => observer.observe(el));
+      
+      // Initialize certificates
+      setTimeout(initializeCertificates, 500);
+    });
+
+    i18next.on('languageChanged', () => {
+      updateContent();
+    });
+  </script>
+</body>
+</html>
