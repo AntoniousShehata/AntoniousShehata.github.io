@@ -16,7 +16,7 @@ A modern, professional portfolio website showcasing 10+ years of software engine
 
 ## 👨‍💻 About Shehata Antonious
 
-**Senior Software Engineer | Technical Lead | Cloud Architect**
+**Software Engineer | Technical Lead | Cloud Architect**
 
 - 🎓 **Master of Computer Science** - GISMA University, Germany
 - 🎓 **MBA Global Business** - ESLSCA Business School, France  
