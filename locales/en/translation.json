@@ -1,12 +1,12 @@
 {
   "name": "Shehata Antonious",
-  "job_title": "Senior Software Engineer",
+  "job_title": "Software Engineer",
   "degree": "Master in Computer Science, GISMA University - Germany",
   "degree_other": "Master Business Administration (MBA), ESLSCA Business School - France", 
   "english": "English",
   "german": "Deutsch",
   "about_title": "About Me",
-  "about_text": "Senior Software Engineer with 10+ years in .NET (C#, ASP.NET Core), React, Docker and SQL Server, delivering scalable cloud platforms for 500,000+ users. Specialized in microservices, REST APIs, and Azure services; German B1, visa-ready, seeking .NET focused roles.",
+  "about_text": "Software Engineer with 10+ years in .NET (C#, ASP.NET Core), React, Docker and SQL Server, delivering scalable cloud platforms for 500,000+ users. Specialized in microservices, REST APIs, and Azure services; German B1, visa-ready, seeking .NET focused roles.",
   "contact_info": {
     "phone": "+491773948619",
     "email": "antoniousmaher@gmail.com",
@@ -26,9 +26,9 @@
   },
   "education": {
     "title": "Education",
-    "gisma": "<strong>GISMA University</strong> – Master of Computer Science (Feb 2025 – Potsdam, Germany) – GPA: 2.2 / 5<br/>Thesis: Using machine learning-based customer segmentation to enhance market performance for SMEs",
-    "eslsca": "<strong>ESLSCA Business School</strong> – MBA – Global Business (Apr 2020 – Paris, France) – German GPA: 1.7 / 5",
-    "helwan": "<strong>Helwan University</strong> – Bachelor of Business Administration Information Technology (May 2019 – Cairo, Egypt)"
+    "gisma": "<strong>GISMA University</strong> – Master of Computer Science (Feb 2025 – Potsdam, Germany)<br/>Thesis: Using machine learning-based customer segmentation to enhance market performance for SMEs",
+    "eslsca": "<strong>ESLSCA Business School</strong> – MBA – Global Business (Apr 2020 – Paris, France)",
+    "helwan": "<strong>Helwan University</strong> – Bachelor of Business Administration Information Technology (May 2009 – Cairo, Egypt)"
   },
   "additional_education": {
     "title": "Further Education",
@@ -37,29 +37,23 @@
   },
   "experience": {
     "title": "Professional Experience",
-    "technical_lead": {
-      "title": "Technical Lead – Egyptian Parliament",
-      "period": "January 2020 - January 2023",
-      "company": "Egyptian Parliament – Cairo, Egypt",
-      "details": "• Directed cloud migration to Azure reducing infrastructure costs by 30%<br/>• Established CI/CD pipelines using Azure DevOps, cutting deployment time from 1 week to 4 hours<br/>• Designed Kubernetes cluster architecture maintaining 99.9% system uptime during parliamentary sessions<br/>• Transitioned monolithic systems to microservices using Docker"
-    },
     "senior_engineer": {
-      "title": "Senior Software Engineer – Egyptian Parliament",
-      "period": "January 2017 - December 2019",
-      "company": "Egyptian Parliament – Cairo, Egypt",
-      "details": "• Developed event-driven committee tracking system with RabbitMQ<br/>• Created Xamarin tablet app for 1200 MPs to access documents<br/>• Implemented RESTful APIs connecting parliament with ministries<br/>• Mentored 3 junior developers in .NET Core and clean code practices"
+      "title": "FullStack Engineer",
+      "period": "January 2019 - January 2023",
+      "company": "National Government Information Center",
+      "details": "• Led end-to-end development of parliamentary digital platforms, modernizing legacy systems with microservices (.NET Core, Docker) and Azure migration (30% cost reduction)<br/>• Delivered a Xamarin tablet app for 1200 MPs, enabling real-time document access and annotation<br/>• Built RESTful APIs for secure cross-ministry integrations and Kafka-based event tracking for committee workflows<br/>• Achieved 99.9% uptime via Kubernetes and cut deployment cycles from 1 week to 4 hours (Azure DevOps CI/CD)"
     },
     "software_engineer": {
-      "title": "Software Engineer – Egyptian Parliament",
-      "period": "May 2015 - December 2016",
-      "company": "Egyptian Parliament – Cairo, Egypt",
+      "title": "Junior FullStack Engineer",
+      "period": "May 2015 - December 2018",
+      "company": "National Government Information Center",
       "details": "• Built HR management system automating payroll processing (85% reduction in manual work) for 4000+ employees<br/>• Integrated Azure Blob Storage for digital document management<br/>• Optimized SQL queries improving report generation speed by 40%<br/>• Introduced unit testing with xUnit framework"
     },
     "junior_engineer": {
-      "title": "Junior Software Engineer – Egyptian Parliament",
+      "title": "Junior Backend Engineer",
       "period": "July 2012 - April 2015",
-      "company": "Egyptian Parliament – Cairo, Egypt",
-      "details": "• Developed the official website using ASP.NET MVC and Bootstrap serves 500,000+ users daily<br/>• Migrated legacy IBM DB2 data to SQL Server with zero data loss<br/>• Implemented real-time MP registration system cutting processing time from 3 hours to 15 minutes<br/>• Created stored procedures for complex parliamentary reporting"
+      "company": "National Government Information Center",
+      "details": "• Developed backend logic and data processing for the official website using ASP.NET MVC<br/>• Migrated legacy DB2 → SQL Server with 100% data integrity; engineered backend services, slashing MP registration time from 3 hours to 15 minutes<br/>• Automated parliamentary reports via complex SQL scripts and optimized database performance"
     }
   },
   "languages": {

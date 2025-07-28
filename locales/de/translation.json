@@ -1,12 +1,12 @@
 {
   "name": "Shehata Antonious",
-  "job_title": "Senior Software Engineer",
+  "job_title": "Software Engineer",
   "degree": "Master in Computer Science, GISMA Universität - Deutschland",
   "degree_other": "Master Business Administration (MBA), ESLSCA Business School - Frankreich", 
   "english": "English",
   "german": "Deutsch",
   "about_title": "Über mich",
-  "about_text": "Senior Software Engineer mit 10+ Jahren Erfahrung in .NET (C#, ASP.NET Core), React, Docker und SQL Server, der skalierbare Cloud-Plattformen für über 500.000 Benutzer entwickelt. Spezialisiert auf Microservices, REST-APIs und Azure-Services; Deutsch B1, visa-bereit, suche .NET-fokussierte Positionen.",
+  "about_text": "Software Engineer mit 10+ Jahren Erfahrung in .NET (C#, ASP.NET Core), React, Docker und SQL Server, der skalierbare Cloud-Plattformen für über 500.000 Benutzer entwickelt. Spezialisiert auf Microservices, REST-APIs und Azure-Services; Deutsch B1, visa-bereit, suche .NET-fokussierte Positionen.",
   "contact_info": {
     "phone": "+491773948619",
     "email": "antoniousmaher@gmail.com",
@@ -26,8 +26,8 @@
   },
   "education": {
     "title": "Ausbildung",
-    "gisma": "<strong>GISMA Universität</strong> – Master in Computer Science (Feb 2025 – Potsdam, Deutschland) – GPA: 2.2 / 5<br/>Masterarbeit: Verwendung von Machine-Learning-basierter Kundensegmentierung zur Verbesserung der Marktleistung für KMU",
-    "eslsca": "<strong>ESLSCA Business School</strong> – MBA – Global Business (Apr 2020 – Paris, Frankreich) – Deutsche GPA: 1.7 / 5",
+    "gisma": "<strong>GISMA Universität</strong> – Master in Computer Science (Feb 2025 – Potsdam, Deutschland)<br/>Masterarbeit: Verwendung von Machine-Learning-basierter Kundensegmentierung zur Verbesserung der Marktleistung für KMU",
+    "eslsca": "<strong>ESLSCA Business School</strong> – MBA – Global Business (Apr 2020 – Paris, Frankreich)",
     "helwan": "<strong>Helwan Universität</strong> – Bachelor of Business Administration Informationstechnologie (Mai 2019 – Kairo, Ägypten)"
   },
   "additional_education": {
@@ -36,30 +36,24 @@
     "hertie": "<strong>Hertie School</strong> – Digitale Transformation und gute Regierungsführung (Sep 2022 – Berlin, Deutschland)"
   },
   "experience": {
-    "title": "Berufserfahrung",
-    "technical_lead": {
-      "title": "Technical Lead – Ägyptisches Parlament",
-      "period": "Januar 2020 - Januar 2023",
-      "company": "Ägyptisches Parlament – Kairo, Ägypten",
-      "details": "• Leitete Cloud-Migration zu Azure und reduzierte Infrastrukturkosten um 30%<br/>• Etablierte CI/CD-Pipelines mit Azure DevOps, reduzierte Deployment-Zeit von 1 Woche auf 4 Stunden<br/>• Entwarf Kubernetes-Cluster-Architektur mit 99,9% Systemverfügbarkeit während Parlamentssitzungen<br/>• Überführte monolithische Systeme in Microservices mit Docker"
-    },
+    "titel": "Berufserfahrung",
     "senior_engineer": {
-      "title": "Senior Software Engineer – Ägyptisches Parlament",
-      "period": "Januar 2017 - Dezember 2019",
-      "company": "Ägyptisches Parlament – Kairo, Ägypten",
-      "details": "• Entwickelte ereignisgesteuerte Ausschuss-Tracking-System mit RabbitMQ<br/>• Erstellte Xamarin-Tablet-App für 1200 Abgeordnete zum Dokumentenzugriff<br/>• Implementierte RESTful APIs zur Verbindung von Parlament und Ministerien<br/>• Mentorierte 3 Junior-Entwickler in .NET Core und Clean-Code-Praktiken"
+      "titel": "Fullstack-Entwickler",
+      "zeitraum": "Januar 2019 – Januar 2023",
+      "unternehmen": "Nationales Zentrum für Regierungsinformationen",
+      "details": "• Leitung der vollständigen Entwicklung parlamentarischer Digitalplattformen, Modernisierung von Altsystemen mit Microservices (.NET Core, Docker) und Migration zu Azure (30 % Kostenreduzierung)<br/>• Entwicklung einer Xamarin-Tablet-App für 1200 Abgeordnete zur Echtzeitanzeige und Kommentierung von Dokumenten<br/>• Aufbau von RESTful-APIs für sichere Integrationen zwischen Ministerien und Kafka-basiertes Event-Tracking für Ausschussabläufe<br/>• Erreichte 99,9 % Systemverfügbarkeit mit Kubernetes und verkürzte Deployment-Zyklen von einer Woche auf 4 Stunden (Azure DevOps CI/CD)"
     },
     "software_engineer": {
-      "title": "Software Engineer – Ägyptisches Parlament",
-      "period": "Mai 2015 - Dezember 2016",
-      "company": "Ägyptisches Parlament – Kairo, Ägypten",
-      "details": "• Baute HR-Management-System zur Automatisierung der Lohnabrechnung (85% Reduzierung manueller Arbeit) für 4000+ Mitarbeiter<br/>• Integrierte Azure Blob Storage für digitales Dokumentenmanagement<br/>• Optimierte SQL-Abfragen und verbesserte Report-Generierungsgeschwindigkeit um 40%<br/>• Führte Unit-Testing mit xUnit-Framework ein"
+      "titel": "Junior Fullstack-Entwickler",
+      "zeitraum": "Mai 2015 – Dezember 2018",
+      "unternehmen": "Nationales Zentrum für Regierungsinformationen",
+      "details": "• Entwicklung eines HR-Managementsystems zur Automatisierung der Gehaltsabrechnung (85 % Reduzierung manueller Arbeit) für über 4000 Mitarbeiter<br/>• Integration von Azure Blob Storage für digitales Dokumentenmanagement<br/>• Optimierung von SQL-Abfragen zur Beschleunigung der Berichtserstellung um 40 %<br/>• Einführung von Unit-Tests mit dem xUnit-Framework"
     },
     "junior_engineer": {
-      "title": "Junior Software Engineer – Ägyptisches Parlament",
-      "period": "Juli 2012 - April 2015",
-      "company": "Ägyptisches Parlament – Kairo, Ägypten",
-      "details": "• Entwickelte die offizielle Website mit ASP.NET MVC und Bootstrap für 500.000+ tägliche Benutzer<br/>• Migrierte Legacy-IBM-DB2-Daten zu SQL Server ohne Datenverlust<br/>• Implementierte Echtzeit-MP-Registrierungssystem und reduzierte Bearbeitungszeit von 3 Stunden auf 15 Minuten<br/>• Erstellte gespeicherte Prozeduren für komplexe parlamentarische Berichte"
+      "titel": "Junior Backend-Entwickler",
+      "zeitraum": "Juli 2012 – April 2015",
+      "unternehmen": "Nationales Zentrum für Regierungsinformationen",
+      "details": "• Entwicklung von Backend-Logik und Datenverarbeitung für die offizielle Website mit ASP.NET MVC<br/>• Migration der Legacy-Datenbank von DB2 zu SQL Server mit 100 % Datenintegrität; Backend-Dienste entwickelt, die die Registrierungszeit für Abgeordnete von 3 Stunden auf 15 Minuten reduzierten<br/>• Automatisierung parlamentarischer Berichte mit komplexen SQL-Skripten und Datenbankoptimierung"
     }
   },
   "languages": {
