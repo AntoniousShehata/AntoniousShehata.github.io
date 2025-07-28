@@ -1,4 +1,4 @@
-# 🚀 Shehata Antonious - Senior Software Engineer Portfolio
+# 🚀 Shehata Antonious - Software Engineer Portfolio
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Portfolio-blue?style=for-the-badge&logo=github)](https://antoniousshehata.github.io/)
 [![GitHub Pages](https://img.shields.io/badge/Deployed%20on-GitHub%20Pages-green?style=for-the-badge&logo=github)](https://antoniousshehata.github.io/)
