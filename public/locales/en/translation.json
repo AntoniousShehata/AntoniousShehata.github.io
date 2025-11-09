@@ -16,13 +16,13 @@
   },
   "skills": {
     "title": "Skills & Technologies",
-    "frontend": "<strong>Frontend:</strong> HTML5 | CSS3 | JavaScript | React | Bootstrap/Tailwind",
+    "frontend": "<strong>Frontend:</strong> HTML5 | CSS3 | JavaScript | React | Bootstrap/Tailwind | Xamarin",
     "backend": "<strong>Backend:</strong> C# | .NET Core | ASP.NET MVC | Microservices | REST APIs",
     "databases": "<strong>Database:</strong> SQL Server | MySQL | MongoDB | Database Design",
     "devops": "<strong>Cloud/DevOps:</strong> Azure (App Services, Blob) | Docker | Kubernetes | CI/CD | Kafka",
     "ml_data": "<strong>ML/Data:</strong> Python (Pandas, NumPy) | Scikit-learn | Data Modeling",
     "tools": "<strong>Tools:</strong> Git | Jupyter | NUnit/xUnit | Agile/Scrum",
-    "soft_skills": "<strong>Soft Skills:</strong> Problem Solving | Team Leadership | Fast Learner"
+    "soft_skills": "<strong>Soft Skills:</strong> Problem Solving | Team Leadership | Fast Learner | Friendly personality | Above-average resilience"
   },
   "education": {
     "title": "Education",
@@ -37,29 +37,29 @@
   },
   "experience": {
     "title": "Professional Experience",
-    "technical_lead": {
-      "title": "Technical Lead – Egyptian Parliament",
-      "period": "January 2020 - January 2023",
-      "company": "Egyptian Parliament – Cairo, Egypt",
-      "details": "• Directed cloud migration to Azure reducing infrastructure costs by 30%<br/>• Established CI/CD pipelines using Azure DevOps, cutting deployment time from 1 week to 4 hours<br/>• Designed Kubernetes cluster architecture maintaining 99.9% system uptime during parliamentary sessions<br/>• Transitioned monolithic systems to microservices using Docker"
+    "freelance_researcher": {
+      "title": "Freelance Developer & MSc Researcher",
+      "period": "Jan 2024 – Present",
+      "company": "Potsdam, Germany",
+      "details": "• Developed and implemented a website for a Kardiology practice in Aurich<br/>• Worked on MSc thesis: ML-based customer segmentation<br/>• Built e-commerce platform (React, Node.js, Docker)"
     },
     "senior_engineer": {
-      "title": "Senior Software Engineer – Egyptian Parliament",
-      "period": "January 2017 - December 2019",
-      "company": "Egyptian Parliament – Cairo, Egypt",
-      "details": "• Developed event-driven committee tracking system with RabbitMQ<br/>• Created Xamarin tablet app for 1200 MPs to access documents<br/>• Implemented RESTful APIs connecting parliament with ministries<br/>• Mentored 3 junior developers in .NET Core and clean code practices"
+      "title": "FullStack Engineer – National Government Info Center",
+      "period": "Jan 2019 – Dec 2023",
+      "company": "Cairo, Egypt",
+      "details": "• Led end-to-end development of parliamentary digital platforms, modernizing legacy systems with microservices (.NET Core, Docker) and Azure migration (30% cost reduction)<br/>• Delivered a Xamarin tablet app for 1200 MPs, enabling real-time document access and annotation<br/>• Built RESTful APIs for secure cross-ministry integrations and Kafka-based event tracking for committee workflows<br/>• Achieved 99.9% uptime through Kubernetes and minimized deployment cycles from 1 week to 4 hours (Azure DevOps CI/CD)"
     },
     "software_engineer": {
-      "title": "Software Engineer – Egyptian Parliament",
-      "period": "May 2015 - December 2016",
-      "company": "Egyptian Parliament – Cairo, Egypt",
+      "title": "Junior FullStack Engineer – NGIC",
+      "period": "May 2015 – Dec 2018",
+      "company": "Cairo, Egypt",
       "details": "• Built HR management system automating payroll processing (85% reduction in manual work) for 4000+ employees<br/>• Integrated Azure Blob Storage for digital document management<br/>• Optimized SQL queries improving report generation speed by 40%<br/>• Introduced unit testing with xUnit framework"
     },
     "junior_engineer": {
-      "title": "Junior Software Engineer – Egyptian Parliament",
-      "period": "July 2012 - April 2015",
-      "company": "Egyptian Parliament – Cairo, Egypt",
-      "details": "• Developed the official website using ASP.NET MVC and Bootstrap serves 500,000+ users daily<br/>• Migrated legacy IBM DB2 data to SQL Server with zero data loss<br/>• Implemented real-time MP registration system cutting processing time from 3 hours to 15 minutes<br/>• Created stored procedures for complex parliamentary reporting"
+      "title": "Junior Backend Engineer – NGIC",
+      "period": "Jul 2012 – Apr 2015",
+      "company": "Cairo, Egypt",
+      "details": "• ASP.NET MVC backend for official site<br/>• Migrated from DB2 to SQL Server, 100% data integrity<br/>• Cut MP registration from 3h to 15min, automated reports"
     }
   },
   "languages": {
@@ -200,7 +200,8 @@
     "years_experience": "Years Experience",
     "major_projects": "Major Projects",
     "paper_reduction": "Paper Reduction",
-    "users_impacted": "Users Impacted"
+    "users_impacted": "Users Impacted",
+    "parliament_badge": "IT Department – Egyptian Parliament (2012–2023)"
   },
   "contact": {
     "title": "Contact",

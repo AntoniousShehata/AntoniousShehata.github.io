@@ -6,7 +6,7 @@
   "english": "English",
   "german": "Deutsch",
   "about_title": "Über mich",
-  "about_text": "Software Engineer mit 10+ Jahren Erfahrung in .NET (C#, ASP.NET Core), React, Docker und SQL Server, der skalierbare Cloud-Plattformen für über 500.000 Benutzer entwickelt. Spezialisiert auf Microservices, REST-APIs und Azure-Services; Deutsch B1, visa-bereit, suche .NET-fokussierte Positionen.",
+  "about_text": "Software-Entwickler mit über 10 Jahren Erfahrung in .NET (C#, ASP.NET Core), React, Docker und SQL Server. Entwicklung skalierbarer Cloud-Plattformen für über 500.000 Nutzer. Spezialisierung: Microservices, REST-APIs und Azure-Dienste. Deutschkenntnisse B1, arbeitserlaubnisbereit, auf der Suche nach .NET-fokussierten Positionen.",
   "contact_info": {
     "phone": "+491773948619",
     "email": "antoniousmaher@gmail.com",
@@ -15,45 +15,51 @@
     "github": "GitHub"
   },
   "skills": {
-    "title": "Fähigkeiten & Technologien",
-    "frontend": "<strong>Frontend:</strong> HTML5 | CSS3 | JavaScript | React | Bootstrap/Tailwind",
+    "title": "Kenntnisse & Technologien",
+    "frontend": "<strong>Frontend:</strong> HTML5 | CSS3 | JavaScript | React | Bootstrap/Tailwind | Xamarin",
     "backend": "<strong>Backend:</strong> C# | .NET Core | ASP.NET MVC | Microservices | REST APIs",
-    "databases": "<strong>Datenbank:</strong> SQL Server | MySQL | MongoDB | Datenbankdesign",
-    "devops": "<strong>Cloud/DevOps:</strong> Azure (App Services, Blob) | Docker | Kubernetes | CI/CD | Kafka",
+    "databases": "<strong>Datenbanken:</strong> SQL Server | MySQL | MongoDB | Datenbankdesign",
+    "devops": "<strong>Cloud/DevOps:</strong> Azure (App Services, Blob Storage) | Docker | Kubernetes | CI/CD | Kafka",
     "ml_data": "<strong>ML/Daten:</strong> Python (Pandas, NumPy) | Scikit-learn | Datenmodellierung",
-    "tools": "<strong>Tools:</strong> Git | Jupyter | NUnit/xUnit | Agile/Scrum",
-    "soft_skills": "<strong>Soft Skills:</strong> Problemlösung | Teamleitung | Schneller Lerner"
+    "tools": "<strong>Werkzeuge:</strong> Git | Jupyter | NUnit/xUnit | Agile/Scrum",
+    "soft_skills": "<strong>Persönliche Kompetenzen:</strong> Analytisches Denken | Führungserfahrung | Schnelle Auffassungsgabe | Teamfähigkeit | Hohe Belastbarkeit"
   },
   "education": {
-    "title": "Ausbildung",
-    "gisma": "<strong>GISMA Universität</strong> – Master in Computer Science (Feb 2025 – Potsdam, Deutschland)<br/>Masterarbeit: Verwendung von Machine-Learning-basierter Kundensegmentierung zur Verbesserung der Marktleistung für KMU",
-    "eslsca": "<strong>ESLSCA Business School</strong> – MBA – Global Business (Apr 2020 – Paris, Frankreich)",
-    "helwan": "<strong>Helwan Universität</strong> – Bachelor of Business Administration Informationstechnologie (Mai 2019 – Kairo, Ägypten)"
+    "title": "Bildungsweg",
+    "gisma": "<strong>GISMA Universität</strong> – Master of Science in Computer Science (Feb. 2025 – Potsdam, Deutschland)<br/>Masterarbeit: Einsatz von Machine-Learning-basierter Kundensegmentierung zur Verbesserung der Marktleistung kleiner und mittlerer Unternehmen",
+    "eslsca": "<strong>ESLSCA Business School</strong> – MBA Global Business (Apr. 2020 – Paris, Frankreich)",
+    "helwan": "<strong>Helwan Universität</strong> – Bachelor of Business Administration, Schwerpunkt Informationstechnologie (Mai 2009 – Kairo, Ägypten)"
   },
   "additional_education": {
-    "title": "Weiterbildung",
-    "ci": "<strong>CI Universität</strong> – Masterkurs Persönliche Führung (Mai 2024 – Amsterdam, Niederlande)",
-    "hertie": "<strong>Hertie School</strong> – Digitale Transformation und gute Regierungsführung (Sep 2022 – Berlin, Deutschland)"
+    "title": "Zusätzliche Qualifikationen",
+    "ci": "<strong>CI University</strong> – Master-Zertifikatskurs Personal Leadership (Mai 2024 – Amsterdam, Niederlande)",
+    "hertie": "<strong>Hertie School</strong> – Zertifikatskurs Digitale Transformation und Good Governance (Sep. 2022 – Berlin, Deutschland)"
   },
   "experience": {
-    "titel": "Berufserfahrung",
+    "title": "Berufserfahrung",
+    "freelance_researcher": {
+      "title": "Freiberuflicher Entwickler & MSc-Wissenschaftler",
+      "period": "Jan. 2024 – heute",
+      "company": "Potsdam, Deutschland",
+      "details": "• Konzeption und Implementierung einer Webpräsenz für eine kardiologische Facharztpraxis in Aurich<br/>• Masterarbeit: ML-basierte Kundensegmentierung zur Marktoptimierung<br/>• Entwicklung einer E-Commerce-Plattform mit React, Node.js und Docker"
+    },
     "senior_engineer": {
-      "titel": "Fullstack-Entwickler",
-      "zeitraum": "Januar 2019 – Januar 2023",
-      "unternehmen": "Nationales Zentrum für Regierungsinformationen",
-      "details": "• Leitung der vollständigen Entwicklung parlamentarischer Digitalplattformen, Modernisierung von Altsystemen mit Microservices (.NET Core, Docker) und Migration zu Azure (30 % Kostenreduzierung)<br/>• Entwicklung einer Xamarin-Tablet-App für 1200 Abgeordnete zur Echtzeitanzeige und Kommentierung von Dokumenten<br/>• Aufbau von RESTful-APIs für sichere Integrationen zwischen Ministerien und Kafka-basiertes Event-Tracking für Ausschussabläufe<br/>• Erreichte 99,9 % Systemverfügbarkeit mit Kubernetes und verkürzte Deployment-Zyklen von einer Woche auf 4 Stunden (Azure DevOps CI/CD)"
+      "title": "FullStack-Entwickler – Nationales Regierungsinformationszentrum",
+      "period": "Jan. 2019 – Dez. 2023",
+      "company": "Kairo, Ägypten",
+      "details": "• Federführende Entwicklung digitaler Parlamentsplattformen, Modernisierung von Legacy-Systemen durch Microservices-Architektur (.NET Core, Docker) und Azure-Migration mit 30 % Kosteneinsparung<br/>• Entwicklung einer Xamarin-Tablet-Anwendung für 1.200 Abgeordnete zur Echtzeit-Dokumenteneinsicht und -bearbeitung<br/>• Implementierung von RESTful APIs für sichere ministeriumsübergreifende Integrationen sowie Kafka-basiertes Event-Tracking für Ausschussabläufe<br/>• Erreichung einer Systemverfügbarkeit von 99,9 % durch Kubernetes-Orchestrierung und Reduzierung der Deployment-Zyklen von einer Woche auf 4 Stunden mittels Azure DevOps CI/CD-Pipelines"
     },
     "software_engineer": {
-      "titel": "Junior Fullstack-Entwickler",
-      "zeitraum": "Mai 2015 – Dezember 2018",
-      "unternehmen": "Nationales Zentrum für Regierungsinformationen",
-      "details": "• Entwicklung eines HR-Managementsystems zur Automatisierung der Gehaltsabrechnung (85 % Reduzierung manueller Arbeit) für über 4000 Mitarbeiter<br/>• Integration von Azure Blob Storage für digitales Dokumentenmanagement<br/>• Optimierung von SQL-Abfragen zur Beschleunigung der Berichtserstellung um 40 %<br/>• Einführung von Unit-Tests mit dem xUnit-Framework"
+      "title": "Junior FullStack-Entwickler – Nationales Regierungsinformationszentrum",
+      "period": "Mai 2015 – Dez. 2018",
+      "company": "Kairo, Ägypten",
+      "details": "• Entwicklung eines HR-Management-Systems zur automatisierten Lohnabrechnung für über 4.000 Mitarbeitende mit 85 % Reduzierung manueller Prozesse<br/>• Integration von Azure Blob Storage für digitales Dokumentenmanagement<br/>• Optimierung von SQL-Abfragen mit 40 % Leistungssteigerung bei der Berichtserstellung<br/>• Einführung von Unit-Testing mit dem xUnit-Framework"
     },
     "junior_engineer": {
-      "titel": "Junior Backend-Entwickler",
-      "zeitraum": "Juli 2012 – April 2015",
-      "unternehmen": "Nationales Zentrum für Regierungsinformationen",
-      "details": "• Entwicklung von Backend-Logik und Datenverarbeitung für die offizielle Website mit ASP.NET MVC<br/>• Migration der Legacy-Datenbank von DB2 zu SQL Server mit 100 % Datenintegrität; Backend-Dienste entwickelt, die die Registrierungszeit für Abgeordnete von 3 Stunden auf 15 Minuten reduzierten<br/>• Automatisierung parlamentarischer Berichte mit komplexen SQL-Skripten und Datenbankoptimierung"
+      "title": "Junior Backend-Entwickler – Nationales Regierungsinformationszentrum",
+      "period": "Juli 2012 – Apr. 2015",
+      "company": "Kairo, Ägypten",
+      "details": "• Entwicklung des ASP.NET MVC-Backends für die offizielle Parlamentswebsite<br/>• Migration von DB2 nach SQL Server mit vollständiger Datenintegrität<br/>• Reduzierung der Registrierungszeit für Abgeordnete von 3 Stunden auf 15 Minuten durch optimierte Backend-Services<br/>• Automatisierung parlamentarischer Berichte mittels komplexer SQL-Skripte und Datenbankoptimierung"
     }
   },
   "languages": {
@@ -138,7 +144,8 @@
     "years_experience": "Jahre Erfahrung",
     "major_projects": "Große Projekte",
     "paper_reduction": "Papierreduzierung",
-    "users_impacted": "Betroffene Benutzer"
+    "users_impacted": "Betroffene Benutzer",
+    "parliament_badge": "IT-Abteilung – Ägyptisches Parlament (2012–2023)"
   },
   "rights": "© 2025 Shehata Antonious. Alle Rechte vorbehalten."
 }
